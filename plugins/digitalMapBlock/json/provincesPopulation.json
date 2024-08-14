@@ -1,0 +1,138 @@
+[
+	{
+		"adcode": 110000,
+		"value": 50
+	},
+	{
+		"adcode": 120000,
+		"value": 10
+	},
+	{
+		"adcode": 130000,
+		"value": 180
+	},
+	{
+		"adcode": 140000,
+		"value": 120
+	},
+	{
+		"adcode": 150000,
+		"value": 80
+	},
+	{
+		"adcode": 210000,
+		"value": 60
+	},
+	{
+		"adcode": 220000,
+		"value": 40
+	},
+	{
+		"adcode": 230000,
+		"value": 70
+	},
+	{
+		"adcode": 310000,
+		"value": 40
+	},
+	{
+		"adcode": 320000,
+		"value": 120
+	},
+	{
+		"adcode": 330000,
+		"value": 130
+	},
+	{
+		"adcode": 340000,
+		"value": 150
+	},
+	{
+		"adcode": 350000,
+		"value": 110
+	},
+	{
+		"adcode": 360000,
+		"value": 120
+	},
+	{
+		"adcode": 370000,
+		"value": 80
+	},
+	{
+		"adcode": 410000,
+		"value": 180
+	},
+	{
+		"adcode": 420000,
+		"value": 170
+	},
+	{
+		"adcode": 430000,
+		"value": 140
+	},
+	{
+		"adcode": 440000,
+		"value": 130
+	},
+	{
+		"adcode": 450000,
+		"value": 100
+	},
+	{
+		"adcode": 460000,
+		"value": 40
+	},
+	{
+		"adcode": 500000,
+		"value": 124
+	},
+	{
+		"adcode": 510000,
+		"value": 160
+	},
+	{
+		"adcode": 520000,
+		"value": 120
+	},
+	{
+		"adcode": 530000,
+		"value": 170
+	},
+	{
+		"adcode": 540000,
+		"value": 70
+	},
+	{
+		"adcode": 610000,
+		"value": 80
+	},
+	{
+		"adcode": 620000,
+		"value": 90
+	},
+	{
+		"adcode": 630000,
+		"value": 50
+	},
+	{
+		"adcode": 640000,
+		"value": 70
+	},
+	{
+		"adcode": 650000,
+		"value": 40
+	},
+	{
+		"adcode": 710000,
+		"value": 30
+	},
+	{
+		"adcode": 810000,
+		"value": 10
+	},
+	{
+		"adcode": 820000,
+		"value": 5
+	}
+]
