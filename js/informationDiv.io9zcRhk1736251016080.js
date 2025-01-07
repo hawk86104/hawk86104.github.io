@@ -1,0 +1,1 @@
+import"./informationDiv.vue_vue_type_style_index_0_scoped_d511bb21_lang.MykAxEXH1736251016080.js";import{_ as o}from"./@fesjs.SlXnoRjV1736251016080.js";import{o as s,D as e}from"./@vue.-Mz_IXfk1736251016080.js";const i={id:"informationDiv"};const t=o({},[["render",function(o,t){return s(),e("div",i)}],["__scopeId","data-v-d511bb21"]]);export{t as _};
