@@ -1,0 +1,27 @@
+{
+	"ACCESS_TOKEN": "",
+	"URL": "http://192.168.xx.xx:81xx",
+	"entities": {
+		"tvLive": "http://192.168.xx.xx:81xx/api/media_player_proxy/media_player.xiaomi_mih1_07e7_play_control?token=bc",
+		"switch": {
+			"living": "light.hyd_1s_ad5d_switch_status",
+			"bedA": "input_boolean.ce_shi_kai_guan",
+			"bedB": "input_boolean.ce_shi_kai_guan",
+			"tv": "input_boolean.test_tv"
+		},
+		"sensor": {
+			"living": {
+				"temperature": "sensor.miaomiaoce_t9_168a_temperature",
+				"humidity": "sensor.miaomiaoce_t9_168a_relative_humidity"
+			},
+			"bedA": {
+				"temperature": "sensor.xiaomi_m15_59c6_temperature",
+				"humidity": "sensor.xiaomi_m15_59c6_relative_humidity"
+			},
+			"bedB": {
+				"temperature": "sensor.isa_kg03hl_8895_temperature",
+				"humidity": "sensor.isa_kg03hl_8895_relative_humidity"
+			}
+		}
+	}
+}
