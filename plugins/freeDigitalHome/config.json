@@ -1,8 +1,8 @@
 {
-	"ACCESS_TOKEN": "",
-	"URL": "http://192.168.xx.xx:81xx",
+	"ACCESS_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIyOTEyNmZiZWE0ZTA0ZTg5ODczYzdjZmIxOTU3MWQ4NCIsImlhdCI6MTczNzQyMjI0OCwiZXhwIjoyMDUyNzgyMjQ4fQ.BdIQcOXL0_xa4o_lqQTwXJFriYFz07Dr0xwdCRDGXEM",
+	"URL": "http://192.168.18.170:8123",
 	"entities": {
-		"tvLive": "http://192.168.xx.xx:81xx/api/media_player_proxy/media_player.xiaomi_mih1_07e7_play_control?token=bc",
+		"tvLive": "http://192.168.18.170:8123/api/media_player_proxy/media_player.xiaomi_mih1_07e7_play_control?token=ba376d83fe0929d0d76945e7e5c4bc96796df83d5f593e4971b764528d211acc",
 		"switch": {
 			"living": "light.hyd_1s_ad5d_switch_status",
 			"bedA": "input_boolean.ce_shi_kai_guan",
