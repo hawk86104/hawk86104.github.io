@@ -1,1 +1,0 @@
-import"./@amap.h2kWdZ7d1743066865732.js";var r=function(r){return!(!r||"string"==typeof r)&&(r instanceof Array||Array.isArray(r)||r.length>=0&&(r.splice instanceof Function||Object.getOwnPropertyDescriptor(r,r.length-1)&&"String"!==r.constructor.name))};export{r as i};
