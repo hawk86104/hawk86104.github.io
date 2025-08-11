@@ -1,1 +1,0 @@
-import{h as s}from"./@icegl.DF9qTckS1754646849181.js";import{d as t,e as a,o as e,u as o}from"./@vue.BzMISRrV1754646849181.js";const r=t({__name:"DevTDTTiles",setup:t=>(t,r)=>(e(),a(o(s),{url:o("https://t0.tianditu.gov.cn"),tk:"890a908c5d3f6c77232b60964d74f180"},null,8,["url"]))});export{r as _};
