@@ -1,0 +1,1 @@
+import{cl as e,r as a,an as r}from"./three.QlBabAUP1755574932434.js";const s=s=>new Promise(((n,t)=>{(new e).load(s,((e,s)=>{e.minFilter=a,e.magFilter=a,e.mapping=r,e.needsUpdate=!0,n(e)}))}));export{s as l};
