@@ -3092,6 +3092,12 @@
               "type": "img",
               "name": "vertexSnapping",
               "title": "顶点捕捉材质"
+            },
+            {
+              "src": "plugins/basic/materials/preview/materialSelector.png",
+              "type": "img",
+              "name": "materialSelector",
+              "title": "多材质切换组件"
             }
           ]
         },
@@ -3368,6 +3374,12 @@
           "type": "img",
           "name": "lineArrowPage",
           "title": "箭头线组件"
+        },
+        {
+          "src": "plugins/UIdemo/preview/generalFontPage.png",
+          "type": "img",
+          "name": "generalFontPage",
+          "title": "标准三维字体组件"
         }
       ]
     },
@@ -3418,5 +3430,5 @@
       ]
     }
   },
-  "date": "2025/10/22 10:32:07"
+  "date": "2025/10/24 11:23:14"
 }
