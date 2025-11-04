@@ -1,1 +1,0 @@
-import{G as r,D as e}from"./three-stdlib.tb53t5ki1761276103973.js";import{u as o}from"./useLoader.DWT9Jk041761276103973.js";let t=null;async function a(a,s={draco:!0},n){const d=await o(r,a,function(r){return o=>{r.draco&&(t||(t=new e),t.setDecoderPath(r.decoderPath||"./draco/"),o.setDRACOLoader(t))}}(s));return t?.dispose(),t=null,d}export{a as u};

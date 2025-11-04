@@ -1040,7 +1040,7 @@
       "name": "smartOilDepot",
       "title": "油气储运三维可视化",
       "intro": "基于 TVT.js 三维引擎，构建油气储运可视化数字孪生，专注于作业调度、油品运输的高效展示。该插件专为油气储运行业设计，可快速落地并投入使用。<br>\n    1. 插件功能丰富，具备数据分析，油品作业调度数据等功能。<br>\n    2. 代码结构清晰，易于理解和扩展，便于二次开发，可显著缩短项目开发周期，提升开发效率。<br>\n    具体插件详见:\n    <a style=\"color:#5384ff;\" href=\"https://www.icegl.cn/tvtstore/smartOilDepot\" target=\"_blank\">油气储运三维可视化</a>",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": "kanz",
       "website": "https://www.icegl.cn/ask/u/407",
       "state": "active",
@@ -1064,7 +1064,7 @@
       "name": "smartFactory",
       "title": "智能工厂可视化",
       "intro": "基于 TVT.js 的智能工厂可视化解决方案，专注于工厂流水线、设备管理、能耗管理的高效展示。该插件专为智能工厂行业设计，可快速落地并投入使用，同时提供调试界面和 UI 大屏界面，满足不同场景的需求。<br>\n    1. 插件功能丰富，涵盖楼宇管理、工厂巡检、调度模拟和数据分析等核心功能，助力企业实现智能化管理。<br>\n    2. 代码结构清晰，易于理解和扩展，便于二次开发，可显著缩短项目开发周期，提升开发效率。<br>\n    具体插件详见:\n    <a style=\"color:#5384ff;\" href=\"https://www.icegl.cn/tvtstore/smartFactory\" target=\"_blank\">智能工厂可视化</a>",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": "kanz",
       "website": "https://www.icegl.cn/ask/u/407",
       "state": "active",
@@ -1150,8 +1150,8 @@
     "singleLayerEarth": {
       "name": "singleLayerEarth",
       "title": "单层地球",
-      "intro": "一个简单的单层地球插件，可以学习如何扩展threejs着色器来模拟真实地球，详情请见：\n\t<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/singleLayerEarth\" target=\"_blank\">单层地球插件</a>",
-      "version": "1.0.0",
+      "intro": "一个简单的单层地球插件，可以学习如何扩展threejs着色器来模拟真实地球，使用webGPU和TSL语法，详情请见：\n\t<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/singleLayerEarth\" target=\"_blank\">单层地球插件</a>",
+      "version": "2.0.0",
       "author": "石头web",
       "website": "https://github.com/a876691666",
       "state": "active",
@@ -3002,6 +3002,12 @@
               "title": "基本"
             },
             {
+              "src": "plugins/basic/base/preview/shapesPage.png",
+              "type": "img",
+              "name": "shapesPage",
+              "title": "图形合集组件"
+            },
+            {
               "src": "plugins/basic/base/preview/theEvents.png",
               "type": "img",
               "name": "theEvents",
@@ -3430,5 +3436,5 @@
       ]
     }
   },
-  "date": "2025/10/24 11:23:14"
+  "date": "2025/11/4 10:56:17"
 }
