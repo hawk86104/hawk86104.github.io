@@ -1,1 +1,0 @@
-import{cO as e,r as a,a9 as r}from"./three.Db7Elb4U1762224880399.js";const s=s=>new Promise((t,i)=>{(new e).load(s,(e,s)=>{e.minFilter=a,e.magFilter=a,e.mapping=r,e.needsUpdate=!0,t(e)})});export{s as l};
