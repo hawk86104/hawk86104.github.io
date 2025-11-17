@@ -155,12 +155,12 @@
       "name": "zoneFreeScene",
       "title": "编辑器直出免费项目",
       "intro": "这里都是基于TVT区域场景编辑器直接编辑导出的场景，包含了全部源码、模型、编辑器配置等，方便大家快速二次开发和学习。<br>\n    1、低像素炼油厂<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeRefiningIndustry.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeRefiningIndustry.json\" target=\"_blank\">freeRefiningIndustry.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index?sceneConfig=freeRefiningIndustry\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n    2、TvT.js技术栈<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeTvtStack.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeTvtStack.json\" target=\"_blank\">freeTvtStack.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index?sceneConfig=freeTvtStack\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n     QA问答:<br>\n    1、此插件包依赖免费插件，请前往下载安装： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    ",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
       "creatTime": "2025-09-11",
-      "updateTime": "2025-10-10",
+      "updateTime": "2025-11-17",
       "require": [],
       "tvtstore": "FREE",
       "preview": [
@@ -186,12 +186,12 @@
       "name": "zone3Deditor",
       "title": "区域场景编辑器",
       "intro": "基于tvt生态的区域编辑器，用于快速落地园区、区域范围类的场景，导出配置或者源码，便于二次开发。<br>\n    免费使用、免费预览、免费导入导出配置，以及按照自己得需求设计，引入自己得模型服务，编辑好后，免费导出插件源码进行二次开发。<br>\n    1、测试用模型服务的管理器源码git库（内附说明）: <a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/tvt-model-manager-serve\" target=\"_blank\">gitee.com/ice-gl/tvt-model-manager-serve</a><br>\n    2、测试用编辑器案例配置(最佳实践) : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/TvTzone3Deditor.json\" target=\"_blank\">TvTzone3Deditor.json</a><br>\n    3、测试用编辑器goview的配置 : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/GoView.json\" target=\"_blank\">GoView.json</a><br>\n    4、文档教程详见：<a style=\"color: #5384ff;\" href=\"https://docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html\" target=\"_blank\">docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html</a><br>\n    5、插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zone3Deditor\" target=\"_blank\">icegl.cn/tvtstore/zone3Deditor</a><br>\n    6、视频教程详见：<a style=\"color: #5384ff;\" href=\"https://www.bilibili.com/video/BV1USaczSEaS/\" target=\"_blank\">bilibili.com/video/BV1USaczSEaS</a><br>\n    QA问答:<br>\n    1、导出插件包安装后，需要再安装下免费插件依赖： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    此插件会和tvt.js生态持续协同，不断加入组件，用于您项目的快速落地<br>",
-      "version": "2.1.2",
+      "version": "2.1.3",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
       "creatTime": "2025-04-18",
-      "updateTime": "2025-11-04",
+      "updateTime": "2025-11-11",
       "require": [
         "basic",
         "digitalCity",
@@ -890,7 +890,7 @@
       "name": "tvtAirport",
       "title": "TvT.js机场三维案例",
       "intro": "基于icegl-three-vue-tres的机场项目插件。插件详情介绍和视详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtAirport\" target=\"_blank\">机场数字孪生可视化平台</a>",
-      "version": "2.1.1",
+      "version": "3.0.1",
       "author": "Jsonco",
       "website": "站点地址",
       "state": "active",
@@ -1036,6 +1036,32 @@
           "disableFPSGraph": false,
           "disableSrcBtn": true,
           "url": "https://oss.icegl.cn/p/topoEditor/#/plugins/topoEditor/index"
+        }
+      ]
+    },
+    "superFactory": {
+      "name": "superFactory",
+      "title": "齿轮超级工厂三维可视化",
+      "intro": "本插件基于 tvt.js 实现，对北京齿轮超级工厂进行三维化数字呈现。通过高质量的模型渲染、互动操作与实时信息展示，帮助用户从多维度体验工厂的布局结构与生产流程，适用于展示、培训与系统集成等多种场景。<br>\n    详细文档请查看：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/superFactory\" target=\"_blank\">齿轮超级工厂三维可视化</a>",
+      "version": "1.0.0",
+      "author": "Jsonco 冰哥",
+      "website": "https://icegl.cn",
+      "state": "active",
+      "creatTime": "2025-05-06",
+      "updateTime": "2025-11-14",
+      "require": [
+        "resourceManager"
+      ],
+      "tvtstore": "LISENCE",
+      "preview": [
+        {
+          "src": "https://cdn.index.icegl.cn/uploads/20251114/8c116d260259d960f14e2875f868dd7a.png",
+          "url": "https://www.icegl.cn/tvtstore/superFactory",
+          "type": "img",
+          "name": "superFactory",
+          "title": "超级工厂",
+          "disableFPSGraph": true,
+          "disableSrcBtn": true
         }
       ]
     },
@@ -3465,5 +3491,5 @@
       ]
     }
   },
-  "date": "2025/11/6 09:23:19"
+  "date": "2025/11/17 08:26:47"
 }
