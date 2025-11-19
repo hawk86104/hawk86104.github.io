@@ -1,0 +1,1 @@
+import n from"./index.BBN1X69N1763540743861.js";import o from"./LoadingSkeleton.CTG6RYnA1763540743861.js";n.install=o=>{o.component("AsyncLoading",n)},o.install=n=>{n.component("AsyncSkeletonLoading",o)};

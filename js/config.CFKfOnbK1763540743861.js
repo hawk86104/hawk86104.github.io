@@ -1,0 +1,1 @@
+import{d as e}from"./@vue.Co_gxueH1763540743861.js";const t=e({__name:"config",props:{optionData:{type:Object,required:!0}},setup:e=>(e,t)=>null}),o=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"}));export{o as _};

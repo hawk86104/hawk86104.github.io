@@ -1,1 +1,0 @@
-import{N as a}from"./@icegl.ynKap5kY1763339118066.js";import{d as e,b as t,o as r,u as s}from"./@vue.D9fSGD371763339118066.js";const l=e({__name:"DevTDTTiles",props:{layer:{type:String,default:"vec"}},setup:e=>(l,o)=>(r(),t(s(a),{layer:e.layer,url:s("https://t0.tianditu.gov.cn"),tk:"890a908c5d3f6c77232b60964d74f180"},null,8,["layer","url"]))});export{l as _};

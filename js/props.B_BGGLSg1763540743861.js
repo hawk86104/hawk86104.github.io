@@ -1,0 +1,1 @@
+import{l as s}from"./lodash.CybtBilg1763540743861.js";import{t,w as o}from"./@vue.Co_gxueH1763540743861.js";const a=(a,e,r)=>{const m=t(r);return o(()=>a[e],t=>{m.value=s.get(a,e,r)},{immediate:!0}),m};export{a as p};

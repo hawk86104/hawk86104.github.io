@@ -1,0 +1,1 @@
+var s=(s=>(s.BAR="Bars",s.PIE="Pies",s.LINE="Lines",s.SCATTER="Scatters",s.MAP="Maps",s.MORE="Mores",s))(s||{}),E=(s=>(s.BAR="柱状图",s.PIE="饼图",s.LINE="折线图",s.SCATTER="散点图",s.MAP="地图",s.COMBINATION="组合图",s.MORE="更多",s))(E||{});export{E as C,s as a};

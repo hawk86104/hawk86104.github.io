@@ -1,0 +1,1 @@
+var E=(E=>(E.BORDER="Borders",E.DECORATE="Decorates",E.FlowChart="FlowChart",E.THREE="Three",E.MORE="Mores",E))(E||{}),r=(E=>(E.BORDER="边框",E.DECORATE="装饰",E.FlowChart="流程",E.THREE="三维",E.MORE="更多",E))(r||{});export{r as C,E as a};

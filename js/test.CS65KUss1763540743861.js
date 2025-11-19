@@ -1,0 +1,1 @@
+import{d as e,W as s,q as o,H as t,o as a}from"./@vue.Co_gxueH1763540743861.js";const p={style:{display:"none"}},n=e({__name:"test",props:{showBuildings:{type:Boolean,default:!0},autoRotate:{type:Boolean,default:!0}},setup(e,{expose:n}){const l=e;return s(()=>{}),o(()=>{}),n({props:l}),(e,s)=>(a(),t("div",p))}});export{n as default};

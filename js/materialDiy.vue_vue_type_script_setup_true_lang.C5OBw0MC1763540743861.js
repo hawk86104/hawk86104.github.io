@@ -1,0 +1,1 @@
+import{u as a}from"./index.DfC8-s1F1763540743861.js";import{d as s,c as r,b as t,o as e,m as n,u,f as o}from"./@vue.Co_gxueH1763540743861.js";const m=s({__name:"materialDiy",setup(s){const m=a(),i=r(()=>`Tres${m.curType}`);return(a,s)=>(e(),t(o(i.value),n(u(m).curState,{transparent:"",flatShading:""}),null,16))}});export{m as _};

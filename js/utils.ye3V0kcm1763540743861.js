@@ -1,0 +1,1 @@
+import{H as o,E as t,C as n}from"./@takram.DcJcNz4v1763540743861.js";const s=(s,e=139.7671,a=35.6812,i=180,p=-30,r=4500)=>{s.position.length()>10||new o(r,t(i),t(p)).decompose(new n(t(e),t(a)).toECEF(),s.position,s.quaternion,s.up)};export{s as t};

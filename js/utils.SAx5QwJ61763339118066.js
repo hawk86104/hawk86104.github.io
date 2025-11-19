@@ -1,1 +1,0 @@
-import{cQ as e,r as a,a9 as r}from"./three.k2YzZXGk1763339118066.js";const s=s=>new Promise((t,i)=>{(new e).load(s,(e,s)=>{e.minFilter=a,e.magFilter=a,e.mapping=r,e.needsUpdate=!0,t(e)})});export{s as l};
