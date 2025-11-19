@@ -1,1 +1,0 @@
-import{_ as t}from"./effect.vue_vue_type_script_setup_true_lang.B9hW0Aw91763540743861.js";import"./@tresjs.BCHtwiaC1763540743861.js";import"./three.rXKzP9fQ1763540743861.js";import"./@vue.Co_gxueH1763540743861.js";import"./postprocessing.51l5tmA-1763540743861.js";import"./@vueuse.CfFJ-iFV1763540743861.js";import"./@takram.DcJcNz4v1763540743861.js";export{t as default};

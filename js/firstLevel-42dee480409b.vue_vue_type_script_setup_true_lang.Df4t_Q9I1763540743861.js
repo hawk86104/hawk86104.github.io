@@ -1,1 +1,0 @@
-import{d as e,H as o,o as t}from"./@vue.Co_gxueH1763540743861.js";const s=["object"],p=e({__name:"firstLevel-42dee480409b",props:{object:{}},setup:e=>(e,p)=>(t(),o("primitive",{object:e.object[0]},null,8,s))});export{p as _};
