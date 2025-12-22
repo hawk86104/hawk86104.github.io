@@ -1723,6 +1723,12 @@
           "type": "img",
           "name": "navigation",
           "title": "导航"
+        },
+        {
+          "src": "plugins/operationTool/preview/图例.png",
+          "type": "img",
+          "name": "legend",
+          "title": "动态图例（高级版本支持后处理效果，可定制开发）"
         }
       ]
     },
@@ -2468,7 +2474,7 @@
           "src": "plugins/floor/preview/circleWave.png",
           "type": "img",
           "name": "circleWave",
-          "title": "shaderCircleWave"
+          "title": "花纹圈动画"
         },
         {
           "src": "plugins/floor/preview/cartoonMagicZone.png",
@@ -2505,6 +2511,12 @@
           "type": "img",
           "name": "ribbonArrowPage",
           "title": "滚动箭头组件"
+        },
+        {
+          "src": "plugins/floor/preview/dynamicRotatingBase.png",
+          "type": "img",
+          "name": "dynamicRotatingBase",
+          "title": "动态旋转基座"
         }
       ]
     },
@@ -3575,5 +3587,5 @@
       ]
     }
   },
-  "date": "2025/12/8 17:29:25"
+  "date": "2025/12/22 17:16:42"
 }
