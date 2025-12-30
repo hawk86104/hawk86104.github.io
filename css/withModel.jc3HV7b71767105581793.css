@@ -1,0 +1,7 @@
+.mqttdebugger textarea,
+.mqttdebugger input {
+  color: black !important;
+}
+#tvt-app {
+  background-color: #ffffff;
+}

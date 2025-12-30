@@ -1,0 +1,102 @@
+import { importShared, oz } from './index.BxB45aCK1767105581793.js';
+
+var snoise_default="vec4 permute(vec4 x) {\n    return mod(((x * 34.0) + 1.0) * x, 289.0);\n}\nvec4 taylorInvSqrt(vec4 r) {\n    return 1.79284291400159 - 0.85373472095314 * r;\n}\n\nfloat snoise(vec3 v) {\n    const vec2 C = vec2(1.0 / 6.0, 1.0 / 3.0);\n    const vec4 D = vec4(0.0, 0.5, 1.0, 2.0);\n\n    \n    vec3 i = floor(v + dot(v, C.yyy));\n    vec3 x0 = v - i + dot(i, C.xxx);\n\n    \n    vec3 g = step(x0.yzx, x0.xyz);\n    vec3 l = 1.0 - g;\n    vec3 i1 = min(g.xyz, l.zxy);\n    vec3 i2 = max(g.xyz, l.zxy);\n\n    \n    vec3 x1 = x0 - i1 + 1.0 * C.xxx;\n    vec3 x2 = x0 - i2 + 2.0 * C.xxx;\n    vec3 x3 = x0 - 1. + 3.0 * C.xxx;\n\n    \n    i = mod(i, 289.0);\n    vec4 p = permute(permute(permute(\n                    i.z + vec4(0.0, i1.z, i2.z, 1.0))\n                    + i.y + vec4(0.0, i1.y, i2.y, 1.0))\n                + i.x + vec4(0.0, i1.x, i2.x, 1.0));\n\n    \n    \n    float n_ = 1.0 / 7.0; \n    vec3 ns = n_ * D.wyz - D.xzx;\n\n    vec4 j = p - 49.0 * floor(p * ns.z * ns.z); \n\n    vec4 x_ = floor(j * ns.z);\n    vec4 y_ = floor(j - 7.0 * x_); \n\n    vec4 x = x_ * ns.x + ns.yyyy;\n    vec4 y = y_ * ns.x + ns.yyyy;\n    vec4 h = 1.0 - abs(x) - abs(y);\n\n    vec4 b0 = vec4(x.xy, y.xy);\n    vec4 b1 = vec4(x.zw, y.zw);\n\n    vec4 s0 = floor(b0) * 2.0 + 1.0;\n    vec4 s1 = floor(b1) * 2.0 + 1.0;\n    vec4 sh = -step(h, vec4(0.0));\n\n    vec4 a0 = b0.xzyw + s0.xzyw * sh.xxyy;\n    vec4 a1 = b1.xzyw + s1.xzyw * sh.zzww;\n\n    vec3 p0 = vec3(a0.xy, h.x);\n    vec3 p1 = vec3(a0.zw, h.y);\n    vec3 p2 = vec3(a1.xy, h.z);\n    vec3 p3 = vec3(a1.zw, h.w);\n\n    \n    vec4 norm = taylorInvSqrt(vec4(dot(p0, p0), dot(p1, p1), dot(p2, p2), dot(p3, p3)));\n    p0 *= norm.x;\n    p1 *= norm.y;\n    p2 *= norm.z;\n    p3 *= norm.w;\n\n    \n    vec4 m = max(0.6 - vec4(dot(x0, x0), dot(x1, x1), dot(x2, x2), dot(x3, x3)), 0.0);\n    m = m * m;\n    return 42.0 * dot(m * m, vec4(dot(p0, x0), dot(p1, x1),\n                dot(p2, x2), dot(p3, x3)));\n}";
+
+const {defineComponent:_defineComponent} = await importShared('vue');
+
+const {unref:_unref,openBlock:_openBlock,createBlock:_createBlock} = await importShared('vue');
+
+const {watch} = await importShared('vue');
+
+const THREE = await importShared('three');
+const vertexShader = `
+	varying vec3 vPos;
+	void main() {
+		vPos = position;
+	}
+`;
+const _sfc_main = /* @__PURE__ */ _defineComponent({
+  __name: "material",
+  props: {
+    baseMaterial: {
+      type: Object
+    },
+    uEdgeColor: {
+      default: "#4d9bff"
+    },
+    uEdge: { default: 6 },
+    uFreq: {
+      default: 0.41
+    },
+    uAmp: { default: 20 },
+    uProgress: { default: -2 }
+  },
+  setup(__props) {
+    const props = __props;
+    const baseMaterial = props.baseMaterial ?? THREE.MeshPhysicalMaterial;
+    const dissolveUniformData = {
+      uEdgeColor: {
+        value: new THREE.Color(props.uEdgeColor)
+      },
+      uFreq: {
+        value: props.uFreq
+      },
+      uAmp: {
+        value: props.uAmp
+      },
+      uProgress: {
+        value: props.uProgress
+      },
+      uEdge: {
+        value: props.uEdge
+      }
+    };
+    const fragmentShader = `
+  varying vec3 vPos;
+
+  uniform float uFreq;
+  uniform float uAmp;
+  uniform float uProgress;
+  uniform float uEdge;
+  uniform vec3 uEdgeColor;
+
+  ${snoise_default}
+
+	void main() {
+		float noise = snoise(vPos * uFreq) * uAmp; // calculate snoise in fragment shader for smooth dissolve edges
+
+    if(noise < uProgress) discard; // discard any fragment where noise is lower than progress
+
+    float edgeWidth = uProgress + uEdge;
+
+    if(noise > uProgress && noise < edgeWidth){
+        csm_DiffuseColor = vec4(vec3(uEdgeColor),noise); // colors the edge
+    }else{
+				csm_DiffuseColor = vec4(csm_DiffuseColor.xyz,1.0);
+		}
+	}
+`;
+    watch(
+      () => [props.uEdgeColor, props.uEdge, props.uFreq, props.uAmp, props.uProgress],
+      ([uEdgeColor, uEdge, uFreq, uAmp, uProgress]) => {
+        dissolveUniformData.uEdgeColor.value.setStyle(uEdgeColor);
+        dissolveUniformData.uEdge.value = uEdge;
+        dissolveUniformData.uFreq.value = uFreq;
+        dissolveUniformData.uAmp.value = uAmp;
+        dissolveUniformData.uProgress.value = uProgress;
+      }
+    );
+    return (_ctx, _cache) => {
+      return _openBlock(), _createBlock(_unref(oz), {
+        baseMaterial: _unref(baseMaterial),
+        vertexShader,
+        side: THREE.DoubleSide,
+        fragmentShader,
+        uniforms: dissolveUniformData
+      }, null, 8, ["baseMaterial", "side"]);
+    };
+  }
+});
+
+export { _sfc_main, snoise_default };
+//# sourceMappingURL=material.vue_vue_type_script_setup_true_lang.KsUSDVCK1767105581793.js.map
