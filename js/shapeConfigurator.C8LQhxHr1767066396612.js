@@ -1,0 +1,1 @@
+import{o as s}from"./customShaderMaterial.vue_vue_type_script_setup_true_lang.DS9PWjZT1767066396612.js";import{_ as t}from"./@fesjs.BK66sTPr1767066396612.js";const a=t(s,[["__scopeId","data-v-abbf0cc1"]]);export{a as s};

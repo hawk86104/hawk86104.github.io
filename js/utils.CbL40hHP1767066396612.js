@@ -1,0 +1,1 @@
+import{i as e}from"./3d-tiles-renderer.CbgZh8zU1767066396612.js";import{R as r}from"./three-stdlib.Clo1XHat1767066396612.js";const i=await e("three"),t=e=>new Promise((t,a)=>{(new r).load(e,(e,r)=>{e.minFilter=i.LinearFilter,e.magFilter=i.LinearFilter,e.mapping=i.EquirectangularReflectionMapping,e.needsUpdate=!0,t(e)})});export{t as l};
