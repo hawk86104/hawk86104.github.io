@@ -1,0 +1,93 @@
+.illustrate2 > div:first-of-type {
+  position: relative !important;
+}
+.illustrate2 {
+  -webkit-user-select: none;
+          user-select: none;
+  pointer-events: none !important;
+  /* 添加斜线效果 */
+}
+.illustrate2 #inner {
+  -webkit-user-select: none;
+          user-select: none;
+  pointer-events: none !important;
+}
+.illustrate2 .cStyle1 {
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff00;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.illustrate2 .cStyle1::before {
+  content: ' ';
+  position: relative;
+  top: -155px;
+  left: -446px;
+  width: 500px;
+  height: 6px;
+  display: block;
+  transform: rotate(218deg);
+  background-color: white;
+}
+.illustrate2 .cStyle1.cRight::before {
+  top: -146px;
+  left: -70px;
+  width: 320px;
+  transform: rotate(299deg);
+}
+.illustrate2 .parallelogram {
+  width: 260px;
+  height: 30px;
+  color: white;
+  position: relative;
+  top: -333px;
+  left: -665px;
+  text-align: right;
+  font-size: 44px;
+}
+.illustrate2 .parallelogram span {
+  position: relative;
+  right: 18px;
+  top: -38px;
+  font-weight: bolder;
+  cursor: pointer;
+  pointer-events: all !important;
+}
+.illustrate2 .parallelogram .contentDiv {
+  text-align: left;
+  font-size: 30px;
+  display: block;
+  margin-top: -26px;
+  margin-left: 10px;
+}
+.illustrate2 .parallelogram.cRight {
+  top: -333px;
+  left: 186px;
+}
+.illustrate2 .parallelogram::before {
+  content: '';
+  transform: skew(-45deg);
+  background: linear-gradient(45deg, #5a65fc, #ff00f6);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.illustrate2 .parallelogram.bedA::before {
+  background: linear-gradient(45deg, #65ca2b, #ffee99);
+}
+.illustrate2 .parallelogram.bedB::before {
+  background: linear-gradient(45deg, #ca2b2b, #ffa66b);
+}
+.illustrate2 .parallelogram.off::before {
+  background: linear-gradient(45deg, #000000, #ffffff);
+}
+.illustrate2 .parallelogram.tv::before {
+  background: linear-gradient(45deg, #6bfff5, #1a0afa);
+}
+.illustrate2 .parallelogram.off::before {
+  background: linear-gradient(45deg, #000000, #ffffff);
+}
