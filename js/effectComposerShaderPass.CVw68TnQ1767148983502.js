@@ -1,0 +1,14 @@
+import{importShared as a}from"./3d-tiles-renderer.DZNovkLO1767148983502.js";import{Fs as E,_l as S,Kk as b}from"./index.DTe2qqjO1767148983502.js";import{RenderPass as M,EffectComposer as _,ShaderPass as N}from"./RenderPass.DewL5X8q1767148983502.js";import{UnrealBloomPass as V}from"./UnrealBloomPass.Ct_StmlH1767148983502.js";const{defineComponent:U}=await a("vue"),{createElementVNode:l,Fragment:$,openBlock:D,createElementBlock:F}=await a("vue"),{watchEffect:R,ref:w}=await a("vue"),x=await a("three"),G=U({__name:"ecLayerShaderPass",setup(T){const t=w(),o=w(),{camera:e,renderer:s,scene:p,sizes:c}=E(),f={strength:.572,radius:.51,threshold:0};let d=null,n=null,i=null;const C=(u,r,m,P,k)=>{d=new M(u,r);const y=new V(new x.Vector2(P,k),f.strength,f.radius,f.threshold);n=new _(m),n.renderToScreen=!1,n.addPass(d),n.addPass(y)},g=u=>{i=new _(u);const r=new x.ShaderMaterial({uniforms:{baseTexture:{value:null},bloomTexture:{value:n.renderTarget2.texture}},vertexShader:`
+            varying vec2 vUv;
+            void main() {
+                vUv = uv;
+                gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+            }
+        `,fragmentShader:`
+            uniform sampler2D baseTexture;
+            uniform sampler2D bloomTexture;
+            varying vec2 vUv;
+            void main() {
+                gl_FragColor = ( vec4( 1.0 ) *texture2D( baseTexture, vUv ) + vec4( 1.0 ) * texture2D( bloomTexture, vUv ) );
+            }
+        `,defines:{}}),m=new N(r,"baseTexture");m.needsSwap=!0,i.addPass(d),i.addPass(m)};R(()=>{t.value&&t.value.layers.set(0),o.value&&o.value.layers.set(1),c.width.value&&(C(p.value,e.value,s,c.width.value,c.height.value),g(s))});const{onRender:B}=S();return B(()=>{n&&i&&e.value&&(s.clear(),e.value.layers.set(1),n.render(),s.clearDepth(),e.value.layers.set(0),i.render(p.value,e.value))}),(u,r)=>(D(),F($,null,[l("TresMesh",{ref_key:"normalBox",ref:t,position:[3,2,1]},[...r[0]||(r[0]=[l("TresBoxGeometry",{args:[1,1,1]},null,-1),l("TresMeshNormalMaterial",null,null,-1)])],512),l("TresMesh",{ref_key:"shineBox",ref:o,position:[0,2,-4]},[...r[1]||(r[1]=[l("TresBoxGeometry",{args:[1,1,1]},null,-1),l("TresMeshNormalMaterial",null,null,-1)])],512)],64))}}),{defineComponent:z}=await a("vue"),{createElementVNode:v,unref:H,createVNode:h,resolveComponent:L,withCtx:j,openBlock:A,createBlock:K}=await a("vue"),{watchEffect:q,ref:I}=await a("vue"),X=z({__name:"effectComposerShaderPass",setup(T){const t=I();return q(()=>{if(t.value){let o=t.value.context.renderer.instance;o.autoClear=!1}}),(o,e)=>{const s=L("TresCanvas");return A(),K(s,{renderMode:"manual","window-size":"",ref_key:"tcRef",ref:t},{default:j(()=>[e[0]||(e[0]=v("TresPerspectiveCamera",{position:[10,10,10]},null,-1)),e[1]||(e[1]=v("TresAmbientLight",{intensity:1},null,-1)),h(H(b)),e[2]||(e[2]=v("TresGridHelper",{args:[10,10]},null,-1)),h(G)]),_:1},512)}}});export{X as default};
