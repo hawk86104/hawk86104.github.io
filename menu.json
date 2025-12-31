@@ -1871,7 +1871,7 @@
       "require": [],
       "preview": [
         {
-          "src": "\n            1、使用发布的开源动态组件:<a style=\"color: #5384ff;\" href=\"http://dcser.icegl.cn\" target=\"_blank\">http://dcser.icegl.cn</a></br>\n            2、动态组件库已开源：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/dynamic-component-service\" target=\"_blank\">制作你自己的高级组件</a>\n            3、发布你自己的高级组件，可以通过此组件，在tvt.js灵活调试</br>",
+          "src": "\n            1、使用发布的开源动态组件:<a style=\"color: #5384ff;\" href=\"https://dcser.icegl.cn\" target=\"_blank\">https://dcser.icegl.cn</a></br>\n            2、动态组件库已开源：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/dynamic-component-service\" target=\"_blank\">制作你自己的高级组件</a>\n            3、发布你自己的高级组件，可以通过此组件，在tvt.js灵活调试</br>",
           "type": "text",
           "name": "basic",
           "title": "简单读取实例",
@@ -3617,5 +3617,5 @@
       ]
     }
   },
-  "date": "2025/12/31 11:31:42"
+  "date": "2025/12/31 11:47:57"
 }
