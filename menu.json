@@ -251,8 +251,8 @@
     "zone3Deditor": {
       "name": "zone3Deditor",
       "title": "区域场景编辑器",
-      "intro": "基于tvt生态的区域编辑器，用于快速落地园区、区域范围类的场景，导出配置或者源码，便于二次开发。<br>\n    免费使用、免费预览、免费导入导出配置，以及按照自己得需求设计，引入自己得模型服务，编辑好后，免费导出插件源码进行二次开发。<br>\n    1、测试用模型服务的管理器源码git库（内附说明）: <a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/tvt-model-manager-serve\" target=\"_blank\">gitee.com/ice-gl/tvt-model-manager-serve</a><br>\n    2、测试用编辑器案例配置(最佳实践) : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/TvTzone3Deditor.json\" target=\"_blank\">TvTzone3Deditor.json</a><br>\n    3、测试用编辑器goview的配置 : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/GoView.json\" target=\"_blank\">GoView.json</a><br>\n    4、文档教程详见：<a style=\"color: #5384ff;\" href=\"https://docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html\" target=\"_blank\">docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html</a><br>\n    5、插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zone3Deditor\" target=\"_blank\">icegl.cn/tvtstore/zone3Deditor</a><br>\n    6、视频教程详见：<a style=\"color: #5384ff;\" href=\"https://www.bilibili.com/video/BV1USaczSEaS/\" target=\"_blank\">bilibili.com/video/BV1USaczSEaS</a><br>\n    QA问答:<br>\n    1、导出插件包安装后，需要再安装下免费插件依赖： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    此插件会和tvt.js生态持续协同，不断加入组件，用于您项目的快速落地<br>",
-      "version": "2.2.0",
+      "intro": "基于tvt生态的区域编辑器，用于快速落地园区、区域范围类的场景，导出配置或者源码，便于二次开发。<br>\n    免费使用、免费预览、免费导入导出配置，以及按照自己得需求设计，引入自己得模型服务，编辑好后，免费导出插件源码进行二次开发。<br>\n    1、测试用模型服务的管理器源码git库（内附说明）: <a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/tvt-model-manager-serve\" target=\"_blank\">gitee.com/ice-gl/tvt-model-manager-serve</a><br>\n    2、测试用编辑器案例配置(最佳实践) : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/TvTzone3Deditor.json\" target=\"_blank\">TvTzone3Deditor.json</a><br>\n    3、测试用编辑器goview的配置 : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/GoView.json\" target=\"_blank\">GoView.json</a><br>\n    4、动态组件服务以及文档介绍页面 : <a style=\"color: #5384ff;\" href=\"https://dcser.icegl.cn/\" target=\"_blank\">dcser.icegl.cn</a><br>\n    5、文档教程详见：<a style=\"color: #5384ff;\" href=\"https://docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html\" target=\"_blank\">docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html</a><br>\n    6、插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zone3Deditor\" target=\"_blank\">icegl.cn/tvtstore/zone3Deditor</a><br>\n    7、视频教程详见：<a style=\"color: #5384ff;\" href=\"https://www.bilibili.com/video/BV1USaczSEaS/\" target=\"_blank\">bilibili.com/video/BV1USaczSEaS</a><br>\n    QA问答:<br>\n    1、导出插件包安装后，需要再安装下免费插件依赖： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    此插件会和tvt.js生态持续协同，不断加入组件，用于您项目的快速落地<br>",
+      "version": "2.6.2",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
@@ -269,7 +269,7 @@
       "tvtstore": "LICENSE",
       "preview": [
         {
-          "src": "plugins/zone3Deditor/preview/index.png",
+          "src": "https://cdn.index.icegl.cn/uploads/20250519/94fbce573ef3a2ba59c1100a08339857.png",
           "type": "img",
           "name": "index",
           "title": "实例",
@@ -856,8 +856,8 @@
     "tvtCharts": {
       "name": "tvtCharts",
       "title": "TvT.js三维图表插件",
-      "intro": "包含常用的三维图表📈。使用API方法和数据格式，轻松实现各种三维图表效果，详情请见：\n\t<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtCharts\" target=\"_blank\">TvT.js三维图表插件</a>",
-      "version": "2.0.0",
+      "intro": "常用的三维图表📈。使用API方法和数据格式，轻松实现各种三维图表效果<br>\n\t详情请见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtCharts\" target=\"_blank\">TvT.js三维图表插件</a><br>\n    1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n    2、插件包含了航运三维检测台-场景的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑。<br>\n    3、插件包含<a style=\"color: #5384ff;\" href=\"https://docs.icegl.cn/docs/three-vue-tres/dynamic-component-service/introduction.html\" target=\"_blank\">动态组件服务</a>，可嵌入在线<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>实现三维项目编辑，导出源码，离线部署且二开。\n    ",
+      "version": "2.2.0",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
@@ -867,85 +867,13 @@
       "tvtstore": "LICENSE",
       "preview": [
         {
-          "src": "plugins/tvtCharts/preview/showStackedBar.png",
+          "src": "plugins/tvtCharts/preview/shippingMonitoring.png",
           "type": "img",
-          "name": "showStackedBar",
-          "title": "层叠柱状图",
+          "name": "shippingMonitoring",
+          "title": "航运三维检测台",
           "disableFPSGraph": false,
           "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showStackedBar"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showPie.png",
-          "type": "img",
-          "name": "showPie",
-          "title": "饼状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showPie"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showColumn.png",
-          "type": "img",
-          "name": "showColumn",
-          "title": "柱状融合图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showColumn"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showArrowColumn.png",
-          "type": "img",
-          "name": "showArrowColumn",
-          "title": "箭头柱状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showArrowColumn"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showRingColumn.png",
-          "type": "img",
-          "name": "showRingColumn",
-          "title": "圆环状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showRingColumn"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showColumnar.png",
-          "type": "img",
-          "name": "showColumnar",
-          "title": "一列排柱状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showColumnar"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showMultipleBar.png",
-          "type": "img",
-          "name": "showMultipleBar",
-          "title": "多条柱状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showMultipleBar"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showSingleArea.png",
-          "type": "img",
-          "name": "showSingleArea",
-          "title": "单个区域状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showSingleArea"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showMultipleArea.png",
-          "type": "img",
-          "name": "showMultipleArea",
-          "title": "多个区域状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/showMultipleArea"
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
         },
         {
           "src": "plugins/tvtCharts/preview/sampleCar.png",
@@ -954,7 +882,88 @@
           "title": "样例结合：汽车销量",
           "disableFPSGraph": false,
           "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtCharts/#/plugins/tvtCharts/sampleCar"
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showStackedBar.png",
+          "type": "img",
+          "name": "showStackedBar",
+          "title": "层叠柱状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showPie.png",
+          "type": "img",
+          "name": "showPie",
+          "title": "饼状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showColumn.png",
+          "type": "img",
+          "name": "showColumn",
+          "title": "柱状融合图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showArrowColumn.png",
+          "type": "img",
+          "name": "showArrowColumn",
+          "title": "箭头柱状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showRingColumn.png",
+          "type": "img",
+          "name": "showRingColumn",
+          "title": "圆环状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showColumnar.png",
+          "type": "img",
+          "name": "showColumnar",
+          "title": "一列排柱状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showMultipleBar.png",
+          "type": "img",
+          "name": "showMultipleBar",
+          "title": "多条柱状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showSingleArea.png",
+          "type": "img",
+          "name": "showSingleArea",
+          "title": "单个区域状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
+        },
+        {
+          "src": "plugins/tvtCharts/preview/showMultipleArea.png",
+          "type": "img",
+          "name": "showMultipleArea",
+          "title": "多个区域状图",
+          "disableFPSGraph": false,
+          "disableSrcBtn": true,
+          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
         }
       ]
     },
@@ -3617,5 +3626,5 @@
       ]
     }
   },
-  "date": "2026/1/6 09:15:51"
+  "date": "2026/1/14 11:08:21"
 }
