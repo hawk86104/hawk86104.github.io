@@ -1,214 +1,5 @@
 {
   "configs": {
-    "zoneSmartWarehouse": {
-      "name": "zoneSmartWarehouse",
-      "title": "智能仓储管理",
-      "intro": "基于TVT区域场景编辑器打造的智能仓储管理可视化<br>\n\t以三维数字孪生方式实现货架、设备、物流路径的实时展示与管理，让仓储运营更直观、高效、智能。<br> \n\t\t1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n\t\t2、插件包含了智能仓储的模型服务的管理器源码<br>\n\t\t3、插件包含了智能仓储的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑<br>\n\t\t4、插件包含了智能仓储的goview的配置，根据您项目可再次修改<a style=\"color: #5384ff;\" href=\"https://goview.icegl.cn\" target=\"_blank\">UI编辑器</a>即可再编辑<br>\n\t\t5、插件包含了UI的PSD切图源文件，便于用户二次修改<br>\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zoneSmartWarehouse\" target=\"_blank\">智能仓储管理<区域场景编辑系></a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-11-19",
-      "updateTime": "2025-11-19",
-      "require": [
-        "floor",
-        "digitalCity",
-        "basic",
-        "UIdemo"
-      ],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "https://cdn.index.icegl.cn/uploads/20251202/18017a92aaffe2b50eac432676773500.png?imageMogr2/thumbnail/600x",
-          "type": "img",
-          "name": "secondaryCoding",
-          "title": "简单预览",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zoneSmartWarehouse/#/plugins/zoneSmartWarehouse/secondaryCoding"
-        }
-      ]
-    },
-    "zoneRefiningIndustry": {
-      "name": "zoneRefiningIndustry",
-      "title": "炼化智能工厂可视化",
-      "intro": "基于TVT区域场景编辑器打造的炼化智能工厂可视化<br>\n\t实现三维可视化展示、设备状态监控与动效大屏图表集成，为炼化工厂提供智能化支持。<br> \n\t\t1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n\t\t2、插件包含了工厂的模型服务的管理器源码<br>\n\t\t3、插件包含了工厂的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑<br>\n\t\t4、插件包含了工厂的goview的配置，根据您项目可再次修改<br>\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zoneRefiningIndustry\" target=\"_blank\">炼化智能工厂可视化<区域场景编辑系></a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-06-07",
-      "updateTime": "2025-06-10",
-      "require": [
-        "floor",
-        "digitalCity",
-        "UIdemo",
-        "basic",
-        "industry4",
-        "water"
-      ],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/zoneRefiningIndustry/preview/index.png",
-          "type": "img",
-          "name": "index",
-          "title": "炼化智能工厂可视化",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zoneRefiningIndustry/#/plugins/zoneRefiningIndustry/index"
-        }
-      ]
-    },
-    "zonePlasticProducts": {
-      "name": "zonePlasticProducts",
-      "title": "塑料制品厂三维可视化",
-      "intro": "基于 TVT 区域场景编辑器打造的塑料制品厂三维可视化插件<br>\n\t实现塑料制品厂三维可视化布局编辑与智能场景一体化展示。<br>\n\t\t1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n\t\t2、插件包含了塑料制品厂三维可视化的模型服务的管理器源码<br>\n\t\t3、插件包含了塑料制品厂三维可视化的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑<br>\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zonePlasticProducts\" target=\"_blank\">塑料制品厂三维可视化<区域场景编辑系></a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-11-19",
-      "updateTime": "2025-11-19",
-      "require": [
-        "floor",
-        "digitalCity",
-        "basic",
-        "UIdemo"
-      ],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "https://cdn.index.icegl.cn/uploads/20251119/09534134fd018fe09c18bad0c4565e1d.png",
-          "type": "img",
-          "name": "index",
-          "title": "简单预览",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zonePlasticProducts/#/plugins/zonePlasticProducts/secondaryCoding"
-        }
-      ]
-    },
-    "zonePixelLowMachinRoom": {
-      "name": "zonePixelLowMachinRoom",
-      "title": "低像素风格机房",
-      "intro": "基于 TVT 区域场景编辑器打造的低像素风格机房插件<br>\n\t实现低像素风格机房布局编辑与智能场景一体化展示。<br>\n\t\t1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n\t\t2、插件包含了低像素风格机房的模型服务的管理器源码<br>\n\t\t3、插件包含了低像素风格机房的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑<br>\n\t\t4、配置也包含了事件在线编辑与预览，根据您项目可再次修改<br>\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zonePixelLowMachinRoom\" target=\"_blank\">低像素风格机房<区域场景编辑系></a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-11-05",
-      "updateTime": "2025-11-05",
-      "require": [
-        "floor",
-        "digitalCity",
-        "basic",
-        "UIdemo"
-      ],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "https://cdn.index.icegl.cn/uploads/20251106/ac894bb3033344fe9ca7534d64a9885d.png",
-          "type": "img",
-          "name": "index",
-          "title": "实例",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zonePixelLowMachinRoom/#/plugins/zonePixelLowMachinRoom/index"
-        }
-      ]
-    },
-    "zoneOfficeFloor": {
-      "name": "zoneOfficeFloor",
-      "title": "智能办公空间",
-      "intro": "基于 TVT 区域场景编辑器打造的智能办公空间可视化插件<br>\n\t实现办公空间布局编辑与智能场景一体化展示。<br>\n\t\t1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n\t\t2、插件包含了智能办公空间的模型服务的管理器源码<br>\n\t\t3、插件包含了智能办公空间的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑<br>\n\t\t4、插件包含了智能办公空间的goview的配置，根据您项目可再次修改<br>\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zoneOfficeFloor\" target=\"_blank\">智能办公空间<区域场景编辑系></a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-07-04",
-      "updateTime": "2025-10-16",
-      "require": [
-        "floor",
-        "digitalCity",
-        "basic"
-      ],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/zoneOfficeFloor/preview/index.png",
-          "type": "img",
-          "name": "index",
-          "title": "实例",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zoneOfficeFloor/#/plugins/zoneOfficeFloor/index"
-        }
-      ]
-    },
-    "zoneMachinRoom": {
-      "name": "zoneMachinRoom",
-      "title": "智慧机房",
-      "intro": "基于TVT区域场景编辑器打造的智能机房管理平台，实现三维可视化展示、设备状态监控与动效大屏图表集成，为机房运维提供智能化支持。<br>\n\t\t1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n\t\t2、插件包含了机房的模型服务的管理器源码<br>\n\t\t3、插件包含了机房的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑<br>\n\t\t4、插件包含了机房的goview的配置，根据您项目可再次修改<br>\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zoneMachinRoom\" target=\"_blank\">智慧机房<区域场景编辑系></a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-05-20",
-      "updateTime": "2025-10-16",
-      "require": [
-        "floor",
-        "digitalCity"
-      ],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/zoneMachinRoom/preview/index.png",
-          "type": "img",
-          "name": "index",
-          "title": "智慧机房",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zoneMachinRoom/#/plugins/zoneMachinRoom/index"
-        }
-      ]
-    },
-    "zoneLowAltitudeUAV": {
-      "name": "zoneLowAltitudeUAV",
-      "title": "无人机组可视化",
-      "intro": "基于 TVT 区域场景编辑器打造的无人机组可视化插件<br>\n\t将多架无人机的实时航迹、任务状态等信息在三维环境中直观呈现，可鼠标交互，流畅的精美动画，在低空经济中的重要模块。<br>\n\t\t1、插件包含插件全部源码，模型，您可以直接使用，同样包含二次开发的动作交互，也可以根据自己的需求进行二次开发。<br>\n\t\t2、插件包含了无人机组的模型服务的管理器源码<br>\n\t\t3、插件包含了无人机组的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑<br>\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zoneLowAltitudeUAV\" target=\"_blank\">无人机组可视化<区域场景编辑系></a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-08-11",
-      "updateTime": "2025-08-11",
-      "require": [
-        "floor",
-        "digitalCity"
-      ],
-      "tvtstore": "LOCAL",
-      "preview": [
-        {
-          "src": "https://cdn.index.icegl.cn/uploads/20250813/033419a93f204600fedf0117695fa23f.png",
-          "type": "img",
-          "name": "index",
-          "title": "配置直出源码",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/zoneLowAltitudeUAV.html"
-        },
-        {
-          "src": "https://cdn.index.icegl.cn/uploads/20250813/e3057b08b53b3805f8edb80636182013.png",
-          "type": "img",
-          "name": "secondaryCoding",
-          "title": "二次开发",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/zoneLowAltitudeUAV.html"
-        }
-      ]
-    },
     "zoneFreeScene": {
       "name": "zoneFreeScene",
       "title": "编辑器直出免费项目",
@@ -566,42 +357,6 @@
         }
       ]
     },
-    "useThreeGeospatial": {
-      "name": "useThreeGeospatial",
-      "title": "地理空间渲染",
-      "intro": "效果超好的Three.js 中的地理空间渲染库，此为在tvt.js的最佳实践，目前 探索更新中，后期处理带光照效果的还未有好的实现。<br>\n    库相关API详见:<a style=\"color: #5384ff;\"\n    href=\"https://github.com/takram-design-engineering/three-geospatial\" target=\"_blank\">three-geospatial</a><br>\n    插件详见:<a style=\"color: #5384ff;\"\n    href=\"https://www.icegl.cn/tvtstore/useThreeGeospatial\" target=\"_blank\">地理空间渲染插件</a><br>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-03-24",
-      "updateTime": "2025-10-10",
-      "require": [],
-      "tvtstore": "FREE",
-      "preview": [
-        {
-          "src": "plugins/useThreeGeospatial/preview/atmosphere.png",
-          "type": "img",
-          "name": "atmosphere",
-          "title": "大气层",
-          "url": "https://oss.icegl.cn/p/useThreeGeospatial/#/plugins/useThreeGeospatial/atmosphere"
-        },
-        {
-          "src": "plugins/useThreeGeospatial/preview/clouds.png",
-          "type": "img",
-          "name": "clouds",
-          "title": "叠加云层",
-          "url": "https://oss.icegl.cn/p/useThreeGeospatial/#/plugins/useThreeGeospatial/clouds"
-        },
-        {
-          "src": "plugins/useThreeGeospatial/preview/tilesAtmosphere.png",
-          "type": "img",
-          "name": "tilesAtmosphere",
-          "title": "倾斜摄影+大气层",
-          "url": "https://oss.icegl.cn/p/useThreeGeospatial/#/plugins/useThreeGeospatial/tilesAtmosphere"
-        }
-      ]
-    },
     "uniAppView": {
       "name": "uniAppView",
       "title": "uniapp小程序",
@@ -636,193 +391,6 @@
         }
       ]
     },
-    "tvtVolumeRendering": {
-      "name": "tvtVolumeRendering",
-      "title": "TvT.js体渲染插件",
-      "intro": "本插件包含了体渲染的来龙去脉，以及各个节点的产出物【体数据生产、体数据格式、色例设置控件、各种格式的调试、面剖功能、自由读取预览、NC气象文件结合地图展示等】 最后对场景进行了落地。\n    整体文档教程和插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtVolumeRendering\" target=\"_blank\">TvT.js体渲染</a><br>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2024-10-22",
-      "updateTime": "2025-10-13",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/tvtVolumeRendering/preview/rawDataPre.png",
-          "type": "img",
-          "name": "rawDataPre",
-          "title": "rawData预览",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/rawDataZip.png",
-          "type": "img",
-          "name": "rawDataZip",
-          "title": "rawData压缩Zip例子",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/rawDataImg.png",
-          "type": "img",
-          "name": "rawDataImg",
-          "title": "rawData转图片例子",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/rawDataSurfaceSection.png",
-          "type": "img",
-          "name": "rawDataSurfaceSection",
-          "title": "基于rawData的面剖",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/nrrdPre.png",
-          "type": "img",
-          "name": "nrrdPre",
-          "title": "nrrd预览",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/nrrdOrthographicCamera.png",
-          "type": "img",
-          "name": "nrrdOrthographicCamera",
-          "title": "nrrd文件正交相机",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/nrrdSurfaceSection.png",
-          "type": "img",
-          "name": "nrrdSurfaceSection",
-          "title": "基于nrrd的面剖",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/temperatureCreater.png",
-          "type": "img",
-          "name": "temperatureCreater",
-          "title": "温度体数据生成器",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/roomTemperature.png",
-          "type": "img",
-          "name": "roomTemperature",
-          "title": "机房温度展示",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.bilibili.com/video/BV1dkU3Y9Egp"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/earthTemperature.png",
-          "type": "img",
-          "name": "earthTemperature",
-          "title": "雷达温度展示",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.bilibili.com/video/BV1dkU3Y9Egp"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/earthJson.png",
-          "type": "img",
-          "name": "earthJson",
-          "title": "读取json文件示例",
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/ncFile.png",
-          "type": "img",
-          "name": "ncFile",
-          "title": "nc气象文件以及面剖",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.bilibili.com/video/BV1dkU3Y9Egp"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/debugNcFile.png",
-          "type": "img",
-          "name": "debugNcFile",
-          "title": "调试nc文件气象通用色例",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.bilibili.com/video/BV1dkU3Y9Egp"
-        },
-        {
-          "src": "plugins/tvtVolumeRendering/preview/earthNcFile.png",
-          "type": "img",
-          "name": "earthNcFile",
-          "title": "nc文件结合地图展示",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtVolumeRendering"
-        }
-      ]
-    },
-    "tvtViewHelper": {
-      "name": "tvtViewHelper",
-      "title": "视角浏览辅助插件",
-      "intro": "移植于Three.js的ViewHelper。用于视角辅助工具，整体文档教程和免费插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtViewHelper\" target=\"_blank\">视角浏览辅助插件</a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2024-09-02",
-      "updateTime": "2025-10-09",
-      "require": [
-        "basic"
-      ],
-      "tvtstore": "FREE",
-      "preview": [
-        {
-          "src": "plugins/tvtViewHelper/preview/index.png",
-          "type": "img",
-          "name": "index",
-          "title": "最佳实践",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/tvtViewHelper/#/plugins/tvtViewHelper/index"
-        }
-      ]
-    },
-    "tvtSubstation": {
-      "name": "tvtSubstation",
-      "title": "数字变电站",
-      "intro": "基于tvt.js的数字变电站场景。\n\t数字孪生可视化平台结合了先进的物联网技术与数据分析算法，创建了发电厂的虚拟模型，使管理者能够实时了解设备状态、能耗数据和生产效率。通过直观的可视化界面，用户可以快速识别潜在问题，优化生产流程。\n\t插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtSubstation\" target=\"_blank\">发电厂数字孪生可视化平台</a>",
-      "version": "2.0.0",
-      "author": "Jsonco",
-      "website": "icegl.cn",
-      "state": "active",
-      "require": [],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "plugins/tvtSubstation/preview/tvtSubstation.png",
-          "type": "img",
-          "name": "index",
-          "title": "数字发电厂",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtSubstation"
-        }
-      ]
-    },
     "tvtMqtt": {
       "name": "tvtMqtt",
       "title": "接入mtqq最佳实践",
@@ -850,142 +418,6 @@
           "title": "MQTT与模型交互",
           "disableFPSGraph": false,
           "disableSrcBtn": false
-        }
-      ]
-    },
-    "tvtCharts": {
-      "name": "tvtCharts",
-      "title": "TvT.js三维图表插件",
-      "intro": "常用的三维图表📈。使用API方法和数据格式，轻松实现各种三维图表效果<br>\n\t详情请见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtCharts\" target=\"_blank\">TvT.js三维图表插件</a><br>\n    1、插件包含插件全部源码，您可以直接使用，也可以根据自己的需求进行二次开发。<br>\n    2、插件包含了航运三维检测台-场景的编辑器案例配置，直接通过<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>即可再编辑。<br>\n    3、插件包含<a style=\"color: #5384ff;\" href=\"https://docs.icegl.cn/docs/three-vue-tres/dynamic-component-service/introduction.html\" target=\"_blank\">动态组件服务</a>，可嵌入在线<a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">区域编辑器</a>实现三维项目编辑，导出源码，离线部署且二开。\n    ",
-      "version": "2.2.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2024-09-04",
-      "updateTime": "2025-10-13",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/tvtCharts/preview/shippingMonitoring.png",
-          "type": "img",
-          "name": "shippingMonitoring",
-          "title": "航运三维检测台",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/sampleCar.png",
-          "type": "img",
-          "name": "sampleCar",
-          "title": "样例结合：汽车销量",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showStackedBar.png",
-          "type": "img",
-          "name": "showStackedBar",
-          "title": "层叠柱状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showPie.png",
-          "type": "img",
-          "name": "showPie",
-          "title": "饼状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showColumn.png",
-          "type": "img",
-          "name": "showColumn",
-          "title": "柱状融合图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showArrowColumn.png",
-          "type": "img",
-          "name": "showArrowColumn",
-          "title": "箭头柱状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showRingColumn.png",
-          "type": "img",
-          "name": "showRingColumn",
-          "title": "圆环状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showColumnar.png",
-          "type": "img",
-          "name": "showColumnar",
-          "title": "一列排柱状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showMultipleBar.png",
-          "type": "img",
-          "name": "showMultipleBar",
-          "title": "多条柱状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showSingleArea.png",
-          "type": "img",
-          "name": "showSingleArea",
-          "title": "单个区域状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        },
-        {
-          "src": "plugins/tvtCharts/preview/showMultipleArea.png",
-          "type": "img",
-          "name": "showMultipleArea",
-          "title": "多个区域状图",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtCharts"
-        }
-      ]
-    },
-    "tvtAirport": {
-      "name": "tvtAirport",
-      "title": "TvT.js机场三维案例",
-      "intro": "基于icegl-three-vue-tres的机场项目插件。插件详情介绍和视详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/tvtAirport\" target=\"_blank\">机场数字孪生可视化平台</a>",
-      "version": "3.0.1",
-      "author": "Jsonco",
-      "website": "站点地址",
-      "state": "active",
-      "require": [],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "https://cdn.index.icegl.cn/uploads/20240722/d6278fe78020cfeba0e99e444f7316ca.png",
-          "type": "img",
-          "name": "index",
-          "title": "机场三维案例",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/tvtAirport"
         }
       ]
     },
@@ -1070,165 +502,6 @@
         }
       ]
     },
-    "topoProject": {
-      "name": "topoProject",
-      "title": "3D拓扑项目",
-      "intro": "一个结构简单、代码清晰、扩展性强的拓扑场景。此插件详情请见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/topoProject\" target=\"_blank\">3D拓扑项目</a>。<br>\n    此插件依赖于：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/topoEditor\" target=\"_blank\">2D网络拓扑编辑器</a>,首先下载安装它。<br>\n    ",
-      "version": "2.0.0",
-      "author": "石头web",
-      "website": "https://github.com/a876691666",
-      "state": "active",
-      "creatTime": "2024-12-21",
-      "updateTime": "2025-10-09",
-      "require": [
-        "topoEditor"
-      ],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "plugins/topoProject/preview/topoProject.png",
-          "type": "img",
-          "name": "index",
-          "title": "拓扑项目",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/topoProject/#/plugins/topoProject/index"
-        }
-      ]
-    },
-    "topoEditor": {
-      "name": "topoEditor",
-      "title": "2D网络拓扑编辑器",
-      "intro": "一个结构简单、代码清晰、扩展性强的拓扑编辑器，以二维拖拉拽的形式编辑拓扑图。<br>\n    详情请见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/topoEditor\" target=\"_blank\">2D网络拓扑编辑器</a>",
-      "version": "1.0.0",
-      "author": "石头web",
-      "website": "https://github.com/a876691666",
-      "state": "active",
-      "creatTime": "2024-12-21",
-      "updateTime": "2025-03-26",
-      "require": [],
-      "tvtstore": "FREE",
-      "preview": [
-        {
-          "src": "plugins/topoEditor/preview/topoEditorDialog.png",
-          "type": "img",
-          "name": "index",
-          "title": "弹窗用法与自动布局",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/topoEditor/#/plugins/topoEditor/index"
-        }
-      ]
-    },
-    "superFactory": {
-      "name": "superFactory",
-      "title": "齿轮超级工厂三维可视化",
-      "intro": "本插件基于 tvt.js 实现，对北京齿轮超级工厂进行三维化数字呈现。通过高质量的模型渲染、互动操作与实时信息展示，帮助用户从多维度体验工厂的布局结构与生产流程，适用于展示、培训与系统集成等多种场景。<br>\n    详细文档请查看：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/superFactory\" target=\"_blank\">齿轮超级工厂三维可视化</a>",
-      "version": "1.0.0",
-      "author": "Jsonco 冰哥",
-      "website": "https://icegl.cn",
-      "state": "active",
-      "creatTime": "2025-05-06",
-      "updateTime": "2025-11-14",
-      "require": [
-        "resourceManager"
-      ],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "https://cdn.index.icegl.cn/uploads/20251114/8c116d260259d960f14e2875f868dd7a.png",
-          "url": "https://www.icegl.cn/tvtstore/superFactory",
-          "type": "img",
-          "name": "superFactory",
-          "title": "超级工厂",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true
-        }
-      ]
-    },
-    "smartPark": {
-      "name": "smartPark",
-      "title": "智慧园区",
-      "intro": "本系统基于Three.js三维引擎开发，是针对智慧园区管理需求打造的轻量化三维可视化平台。系统围绕园区空间管理核心场景，实现了电子围栏区域标注、多视角漫游管理、建筑结构可视化拆解、昼夜模式切换四大核心功能。通过WebGL技术实现浏览器端流畅加载，可无缝对接园区现有管理系统，帮助管理人员快速构建三维数字空间，实现园区设备、区域、建筑的立体化监控与可视化决策。<br>\n    详细文档请查看：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/smartPark\" target=\"_blank\">智慧园区smartPark</a>",
-      "version": "2.0.0",
-      "author": "Sunny",
-      "website": "",
-      "state": "active",
-      "creatTime": "2025年4月10日14:15:52",
-      "updateTime": "2025年4月10日14:15:56",
-      "require": [
-        "resourceManager"
-      ],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "plugins/smartPark/preview/smartPark.png",
-          "url": "https://www.icegl.cn/tvtstore/smartPark",
-          "type": "img",
-          "name": "smartPark",
-          "title": "智慧园区",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true
-        }
-      ]
-    },
-    "smartOilDepot": {
-      "name": "smartOilDepot",
-      "title": "油气储运三维可视化",
-      "intro": "基于 TVT.js 三维引擎，构建油气储运可视化数字孪生，专注于作业调度、油品运输的高效展示。该插件专为油气储运行业设计，可快速落地并投入使用。<br>\n    1. 插件功能丰富，具备数据分析，油品作业调度数据等功能。<br>\n    2. 代码结构清晰，易于理解和扩展，便于二次开发，可显著缩短项目开发周期，提升开发效率。<br>\n    具体插件详见:\n    <a style=\"color:#5384ff;\" href=\"https://www.icegl.cn/tvtstore/smartOilDepot\" target=\"_blank\">油气储运三维可视化</a>",
-      "version": "2.0.0",
-      "author": "kanz",
-      "website": "https://www.icegl.cn/ask/u/407",
-      "state": "active",
-      "creatTime": "2025-07-25",
-      "updateTime": "2025-07-25",
-      "require": [],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "plugins/smartOilDepot/preview/缩略图.png",
-          "type": "img",
-          "name": "index",
-          "title": "油气储运三维可视化",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/smartOilDepot"
-        }
-      ]
-    },
-    "smartFactory": {
-      "name": "smartFactory",
-      "title": "智能工厂可视化",
-      "intro": "基于 TVT.js 的智能工厂可视化解决方案，专注于工厂流水线、设备管理、能耗管理的高效展示。该插件专为智能工厂行业设计，可快速落地并投入使用，同时提供调试界面和 UI 大屏界面，满足不同场景的需求。<br>\n    1. 插件功能丰富，涵盖楼宇管理、工厂巡检、调度模拟和数据分析等核心功能，助力企业实现智能化管理。<br>\n    2. 代码结构清晰，易于理解和扩展，便于二次开发，可显著缩短项目开发周期，提升开发效率。<br>\n    具体插件详见:\n    <a style=\"color:#5384ff;\" href=\"https://www.icegl.cn/tvtstore/smartFactory\" target=\"_blank\">智能工厂可视化</a>",
-      "version": "2.0.0",
-      "author": "kanz",
-      "website": "https://www.icegl.cn/ask/u/407",
-      "state": "active",
-      "creatTime": "2025-06-18",
-      "updateTime": "2025-06-19",
-      "require": [],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "plugins/smartFactory/preview/缩略图.png",
-          "type": "img",
-          "name": "index",
-          "title": "三维智能工厂",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/smartFactory"
-        },
-        {
-          "src": "plugins/smartFactory/preview/缩略图1.png",
-          "type": "img",
-          "name": "sceneModel",
-          "title": "工厂模型",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/smartFactory"
-        }
-      ]
-    },
     "skyBox": {
       "name": "skyBox",
       "title": "天空盒",
@@ -1286,29 +559,6 @@
           "type": "img",
           "name": "basiceEnvPage",
           "title": "基础版环境贴图"
-        }
-      ]
-    },
-    "singleLayerEarth": {
-      "name": "singleLayerEarth",
-      "title": "单层地球",
-      "intro": "一个简单的单层地球插件，可以学习如何扩展threejs着色器来模拟真实地球，使用webGPU和TSL语法，详情请见：\n\t<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/singleLayerEarth\" target=\"_blank\">单层地球插件</a>",
-      "version": "2.0.0",
-      "author": "石头web",
-      "website": "https://github.com/a876691666",
-      "state": "active",
-      "creatTime": "2025-03-26",
-      "updateTime": "2025-03-26",
-      "require": [],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "plugins/singleLayerEarth/preview.png",
-          "type": "img",
-          "name": "index",
-          "title": "单层地球基础用法",
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/singleLayerEarth/#/plugins/singleLayerEarth/index"
         }
       ]
     },
@@ -1417,28 +667,6 @@
           "type": "img",
           "name": "radraImg",
           "title": "雷达图"
-        }
-      ]
-    },
-    "showCabinet": {
-      "name": "showCabinet",
-      "title": "机房机柜设备展示",
-      "intro": "基于TvT.js的设备展示，详情请见：\n\t<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/showCabinet\" target=\"_blank\">机房机柜设备展示插件</a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2024-10-14",
-      "updateTime": "2025-10-13",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/showCabinet/preview/showCabinet.png",
-          "type": "img",
-          "name": "index",
-          "title": "机柜展示带UI",
-          "url": "https://www.icegl.cn/tvtstore/showCabinet"
         }
       ]
     },
@@ -1741,74 +969,6 @@
         }
       ]
     },
-    "networkLinkTopology": {
-      "name": "networkLinkTopology",
-      "title": "网络链路拓扑三维大屏",
-      "intro": "通过将复杂的网络结构和链路状态以拓扑图的形式直观展现，它帮助运维人员快速链路中各个节点的健康状态、发现问题和优化资源配置。<br>\n    基于TvTJS开源底座，核心使用Three.js和Tres.js技术，结合模型和webgl渲染技术，着色器shader技术，实现三维拓扑图。<br>\n    1、三维编辑器，用于链路和节点的灵活编辑，导入导出配置<br>\n    2、组件封装完善，可参考代码自定义流光线，扩展图标库，更换展示地板等<br>\n    3、UI编辑器直接参看go-view免费版即可，配置直接读取<br>\n    详细文档请查看：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/networkLinkTopology\" target=\"_blank\">网络链路拓扑三维大屏</a>\n    ",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2024-12-01",
-      "updateTime": "2025-10-13",
-      "require": [
-        "resourceManager"
-      ],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/networkLinkTopology/preview/caseA.png",
-          "type": "img",
-          "name": "caseA",
-          "title": "网络链路拓扑三维大屏展示系统",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/networkLinkTopology"
-        },
-        {
-          "src": "plugins/networkLinkTopology/preview/editor.png",
-          "type": "img",
-          "name": "editor",
-          "title": "链路拓扑编辑器",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/networkLinkTopology"
-        },
-        {
-          "src": "plugins/networkLinkTopology/preview/readConfig.png",
-          "type": "img",
-          "name": "readConfig",
-          "title": "读取配置文件的项目",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/networkLinkTopology"
-        }
-      ]
-    },
-    "metaHuman": {
-      "name": "metaHuman",
-      "title": "数字人",
-      "intro": "该数字人案例引入当前火热的AI，实现了以自然语言的方式与三维场景进行交互，可通过聊天轻松切换人物的服装、舞蹈和场景，大大增强便捷性与趣味性。开发同学也可以以此为基础拓展创造属于自己的AI数字人世界！<br>\n    具体插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/metaHuman\" target=\"_blank\">数字人插件</a>\n    ",
-      "version": "2.0.0",
-      "author": "sunny",
-      "website": "",
-      "state": "active",
-      "creatTime": "2024年11月24日19:20:51",
-      "updateTime": "2025年1月3日20:01:40",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/metaHuman/preview/metaHuman.jpg",
-          "type": "img",
-          "name": "panePage",
-          "title": "metaHuman",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/metaHuman"
-        }
-      ]
-    },
     "medical": {
       "name": "medical",
       "title": "医疗行业",
@@ -1999,49 +1159,16 @@
           "type": "img",
           "name": "flexiblePipe2Page",
           "title": "伸缩管线2"
-        }
-      ]
-    },
-    "indoorMap": {
-      "name": "indoorMap",
-      "title": "商场商铺地图",
-      "intro": "这款强大的 indoorMap 插件专为商场及商业环境的可视化展示设计，能够精准展示商场建筑物和商铺分布。\n    基于标准的 GeoJSON 文件格式，插件提供灵活的展示和编辑功能，帮助用户轻松实现商场内部地图的动态可视化。<br>\n    详细文档请查看：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/indoorMap\" target=\"_blank\">商场商铺地图</a>\n    ",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-02-13",
-      "updateTime": "2025-11-13",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/indoorMap/preview/buildsShow.png",
-          "type": "img",
-          "name": "buildsShow",
-          "title": "建筑物展示",
-          "url": "https://oss.icegl.cn/p/indoorMap/#/plugins/indoorMap/buildsShow"
         },
         {
-          "src": "plugins/indoorMap/preview/buildsGis.png",
+          "src": "plugins/industry4/preview/tslGearsForkedPage.png",
           "type": "img",
-          "name": "buildsGis",
-          "title": "建筑物结合地图",
-          "url": "https://oss.icegl.cn/p/indoorMap/#/plugins/indoorMap/buildsGis"
-        },
-        {
-          "src": "plugins/indoorMap/preview/oneFloor.png",
-          "type": "img",
-          "name": "oneFloor",
-          "title": "一层商户展示",
-          "url": "https://oss.icegl.cn/p/indoorMap/#/plugins/indoorMap/oneFloor"
-        },
-        {
-          "src": "plugins/indoorMap/preview/allFloor.png",
-          "type": "img",
-          "name": "allFloor",
-          "title": "多层商户展示",
-          "url": "https://oss.icegl.cn/p/indoorMap/#/plugins/indoorMap/allFloor"
+          "name": "tslGearsForkedPage",
+          "title": "TSL齿轮分叉",
+          "referenceSource": {
+            "title": "react-three/fiber",
+            "url": "https://codesandbox.io/p/sandbox/webgpu-tsl-gears-forked-v3d959"
+          }
         }
       ]
     },
@@ -2064,39 +1191,6 @@
           "title": "导入混元模型",
           "disableFPSGraph": false,
           "disableSrcBtn": false
-        }
-      ]
-    },
-    "humanMedicine": {
-      "name": "humanMedicine",
-      "title": "人体医疗可视化",
-      "intro": "基于TVT.js的人体健康检测, 人体器官模型展示,可用于医疗行业快速落地，插件包含调试界面和UI大屏界面。<br>\n    1.插件表格组件依赖：highcharts库和@arco-design/web-vue库<br>\n    2.插件模型可随意切换，且使用了菲涅尔效果，参数可调<br>\n    3.增加了诊室模型，加入了交互功能，后续可进行多种模型交互功能<br>\n    4.使用了资源管理插件，预加载模型<br>\n    具体插件详见:\n    <a style=\"color:#5384ff;\" href=\"https://www.icegl.cn/tvtstore/humanMedicine\" target=\"_blank\">人体医疗可视化</a>",
-      "version": "2.0.0",
-      "author": "Kanz",
-      "website": "站点地址",
-      "state": "active",
-      "creatTime": "2025-02-04",
-      "updateTime": "2025-02-04",
-      "require": [],
-      "tvtstore": "LISENCE",
-      "preview": [
-        {
-          "src": "plugins/humanMedicine/preview/缩略图.png",
-          "type": "img",
-          "name": "humanMedicine",
-          "title": "UI大屏界面",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/humanMedicine"
-        },
-        {
-          "src": "plugins/humanMedicine/preview/缩略图1.png",
-          "type": "img",
-          "name": "humanMedicineTest",
-          "title": "模型调试界面",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/humanMedicine"
         }
       ]
     },
@@ -2353,38 +1447,6 @@
         }
       ]
     },
-    "freeDigitalHome": {
-      "name": "freeDigitalHome",
-      "title": "Free数字家居",
-      "intro": "智能家居和homeassitant的结合<br>\n    1、支持homeassitant的websocket连接<br>\n    2、支持homeassitant的实体控制<br>\n    3、支持homeassitant的实体状态显示<br>\n    4、接入TvT.JS生态、真三维模型展示<br>\n    5、克同步间隔性小米电视画面<br>\n    6、全部免费开源源码<br>\n     详细文档请查看：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/freeDigitalHome\" target=\"_blank\">Free数字家居</a>\n    ",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2025-01-19",
-      "updateTime": "2025-10-19",
-      "require": [
-        "resourceManager"
-      ],
-      "tvtstore": "FREE",
-      "preview": [
-        {
-          "src": "plugins/freeDigitalHome/preview/freeDigitalHome.png",
-          "type": "img",
-          "name": "demo",
-          "title": "不连接homeassitant的展示",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true
-        },
-        {
-          "src": "plugins/freeDigitalHome/preview/linkWebsocket.png",
-          "type": "img",
-          "name": "linkWebsocket",
-          "title": "连接homeassitant的展示",
-          "url": "https://www.icegl.cn/tvtstore/freeDigitalHome"
-        }
-      ]
-    },
     "floor": {
       "name": "floor",
       "title": "地面地板实例",
@@ -2615,39 +1677,6 @@
         }
       ]
     },
-    "eMRIscan": {
-      "name": "eMRIscan",
-      "title": "医疗行业核磁成像",
-      "intro": "基于TvT.js的医疗行业落地项目，核磁成像设备展示。插件详情介绍和视详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/eMRIscan\" target=\"_blank\">医疗行业核磁成像可视化系统</a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2024-09-23",
-      "updateTime": "2025-03-20",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/eMRIscan/preview/debugger.png",
-          "type": "img",
-          "name": "debugger",
-          "title": "调试界面",
-          "url": "https://www.icegl.cn/tvtstore/eMRIscan",
-          "disableFPSGraph": false,
-          "disableSrcBtn": true
-        },
-        {
-          "src": "plugins/eMRIscan/preview/ui.png",
-          "url": "https://www.icegl.cn/tvtstore/eMRIscan",
-          "type": "img",
-          "name": "ui",
-          "title": "UI界面",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true
-        }
-      ]
-    },
     "eCommerce": {
       "name": "eCommerce",
       "title": "电商场景",
@@ -2720,28 +1749,6 @@
         }
       ]
     },
-    "dxf2mesh": {
-      "name": "dxf2mesh",
-      "title": "dxf转mesh",
-      "intro": "为便于本地cad文件导入到three.js三维场景进行加载及使用，作者特开发该插件。该插件支持cad的.dxf文件预览、加载到three.js三维场景中进行渲染。\n且源码支持开发者对导入后的对象进行修改位置、旋转值、厚度、材质等属性，完全融入three.js。<br>\n    具体插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/dxf2mesh\" target=\"_blank\">dxf转mesh</a>\n    ",
-      "version": "1.0.1",
-      "author": "sunny",
-      "website": "",
-      "state": "active",
-      "creatTime": "2024-05-06",
-      "updateTime": "2024-11-12",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/dxf2mesh/preview/dxf2mesh.png",
-          "type": "img",
-          "name": "dxf2meshPage",
-          "title": "dxf2mesh",
-          "url": "https://www.icegl.cn/tvtstore/dxf2mesh"
-        }
-      ]
-    },
     "digitalPark": {
       "name": "digitalPark",
       "title": "数字园区",
@@ -2761,119 +1768,6 @@
           "type": "img",
           "name": "simplePark",
           "title": "简单园区"
-        }
-      ]
-    },
-    "digitalMapBlock": {
-      "name": "digitalMapBlock",
-      "title": "数字地图块",
-      "intro": "基于three的vue3框架，Tres的生态系统 TvT.js 框架。快速落地 三维地图 展示区域块。插件详情介绍和视详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/digitalMapBlock\" target=\"_blank\">数字地图块</a>",
-      "version": "2.0.0",
-      "author": "地虎降天龙",
-      "website": "https://gitee.com/hawk86104",
-      "state": "active",
-      "creatTime": "2024-06-12",
-      "updateTime": "2025-10-11",
-      "tvtstore": "LICENSE",
-      "require": [
-        "basic",
-        "floor",
-        "UIdemo",
-        "digitalCity",
-        "simpleGIS"
-      ],
-      "preview": [
-        {
-          "src": "plugins/digitalMapBlock/preview/baseFloorA.png",
-          "type": "img",
-          "name": "baseFloorA",
-          "title": "底座A",
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/baseFloorB.png",
-          "type": "img",
-          "name": "baseFloorB",
-          "title": "底座B",
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/particlesTextureEnv.png",
-          "type": "img",
-          "name": "particlesTextureEnv",
-          "title": "粒子垂直飞环境",
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/flyLines.png",
-          "type": "img",
-          "name": "flyLines",
-          "title": "飞线门",
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/spaceLines.png",
-          "type": "img",
-          "name": "spaceLines",
-          "title": "间隔线",
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/cubeAnnotationHtml.png",
-          "type": "img",
-          "name": "cubeAnnotationHtml",
-          "title": "立方体标注Html",
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/cubeAnnotationMeshUI.png",
-          "type": "img",
-          "name": "cubeAnnotationMeshUI",
-          "title": "立方体标注MeshUI",
-          "disableSrcBtn": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/mapShow.png",
-          "type": "img",
-          "name": "mapShowHtml",
-          "title": "地图展示Html",
-          "disableSrcBtn": true,
-          "disableFPSGraph": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/mapShowMeshUI.png",
-          "type": "img",
-          "name": "mapShowMeshUI",
-          "title": "地图展示MeshUI",
-          "disableSrcBtn": true,
-          "disableFPSGraph": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/scenarioA.png",
-          "type": "img",
-          "name": "scenarioA",
-          "title": "融合场景A",
-          "disableSrcBtn": true,
-          "disableFPSGraph": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
-        },
-        {
-          "src": "plugins/digitalMapBlock/preview/scenarioB.png",
-          "type": "img",
-          "name": "scenarioB",
-          "title": "融合场景B",
-          "disableSrcBtn": true,
-          "disableFPSGraph": true,
-          "url": "https://www.icegl.cn/tvtstore/digitalMapBlock"
         }
       ]
     },
@@ -3105,36 +1999,6 @@
         }
       ]
     },
-    "communityMetaverse": {
-      "name": "communityMetaverse",
-      "title": "ICE社区元宇宙",
-      "intro": "基于TVT.JS的ICE社区元宇宙插件，是一款专为数字化沉浸式互动体验设计的前沿工具，旨在推动虚拟世界与现实世界的无缝融合。该插件结合了先进的物理引擎、实时渲染技术，通过高效的渲染管线，提供一个高度沉浸的元宇宙环境。在ICE社区的构建中，用户可以在虚拟空间内创建、互动和探索，享受前所未有的沉浸感和互动性。\n            <br>操作方式：<br>\n            1.  按键w控制前进，鼠标控制方向变化。<br>\n            2.  长按w键3秒钟，人物持续向前奔跑。<br>\n            3.  停止按键，人物静止不动，保持原地。<br>\n    详细请查看：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/communityMetaverse\" target=\"_blank\">ICE社区元宇宙</a>",
-      "version": "2.0.0",
-      "author": "Jsonco",
-      "website": "https://space.bilibili.com/410503457",
-      "tvtstore": "LISENCE",
-      "state": "active",
-      "creatTime": "2024-02-22",
-      "updateTime": "2025-10-11",
-      "require": [
-        "UIdemo",
-        "floor",
-        "earthSample",
-        "basic",
-        "digitalCity"
-      ],
-      "preview": [
-        {
-          "src": "plugins/communityMetaverse/preview/preview.png",
-          "type": "img",
-          "name": "index",
-          "title": "ICE社区元宇宙",
-          "disableFPSGraph": true,
-          "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/communityMetaverse/#/plugins/communityMetaverse/index"
-        }
-      ]
-    },
     "cannonPhysics": {
       "name": "cannonPhysics",
       "title": "Cannon物理引擎",
@@ -3346,6 +2210,16 @@
               "type": "img",
               "name": "scrollControls",
               "title": "滚轮控制器"
+            },
+            {
+              "src": "plugins/basic/controls/preview/playerControls.png",
+              "type": "img",
+              "name": "playerControls",
+              "referenceSource": {
+                "title": "three-player-controller",
+                "url": "https://github.com/hh-hang/three-player-controller"
+              },
+              "title": "玩家控制器"
             }
           ]
         },
@@ -3610,29 +2484,7 @@
           "title": "建筑物"
         }
       ]
-    },
-    "AIModels": {
-      "name": "AIModels",
-      "title": "AIModels",
-      "intro": "该插件将Three.js与AI【调用meshy.ai第三方接口】完美融合，只需用自然语言描述你的创意，三维模型即可在线快速生成！在Three.js中实时预览你的作品，还能下载到本地，开启无限创作可能。告别繁琐建模，拥抱即时创意！<br>\n   插件详情介绍和视详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/AIModels\" target=\"_blank\">AIModels</a>\n    ",
-      "version": "2.0.0",
-      "author": "sunny",
-      "website": "",
-      "state": "active",
-      "creatTime": "2024年11月24日19:20:51",
-      "updateTime": "2025年10月11日10:07:16",
-      "require": [],
-      "tvtstore": "LICENSE",
-      "preview": [
-        {
-          "src": "plugins/AIModels/preview/AIModels.jpg",
-          "type": "img",
-          "name": "panePage",
-          "title": "AIModels",
-          "url": "https://www.icegl.cn/tvtstore/AIModels"
-        }
-      ]
     }
   },
-  "date": "2026/1/22 10:30:09"
+  "date": "2/24/2026, 9:19:35 AM"
 }
