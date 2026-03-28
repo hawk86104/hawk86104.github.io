@@ -3,7 +3,7 @@
     "zoneFreeScene": {
       "name": "zoneFreeScene",
       "title": "编辑器直出免费项目",
-      "intro": "这里都是基于TVT区域场景编辑器直接编辑导出的场景，包含了全部源码、模型、编辑器配置等，方便大家快速二次开发和学习。<br>\n    1、低像素炼油厂<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeRefiningIndustry.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeRefiningIndustry.json\" target=\"_blank\">freeRefiningIndustry.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index?sceneConfig=freeRefiningIndustry\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n    2、TvT.js技术栈<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeTvtStack.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeTvtStack.json\" target=\"_blank\">freeTvtStack.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index?sceneConfig=freeTvtStack\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n    3、海洋船运<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeShipSea.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeShipSea.json\" target=\"_blank\">freeShipSea.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index?sceneConfig=freeShipSea\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n     QA问答:<br>\n    1、此插件包依赖免费插件，请前往下载安装： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    ",
+      "intro": "这里都是基于TVT区域场景编辑器直接编辑导出的场景，包含了全部源码、模型、编辑器配置等，方便大家快速二次开发和学习。<br>\n    1、低像素炼油厂<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeRefiningIndustry.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeRefiningIndustry.json\" target=\"_blank\">freeRefiningIndustry.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://zone3deditor.icegl.cn/#/plugins/zone3Deditor/index?sceneConfig=freeRefiningIndustry\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n    2、TvT.js技术栈<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeTvtStack.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeTvtStack.json\" target=\"_blank\">freeTvtStack.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://zone3deditor.icegl.cn/#/plugins/zone3Deditor/index?sceneConfig=freeTvtStack\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n    3、海洋船运<br>\n    全套项目源码：<a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/icegl-three-vue-tres/blob/master/src/plugins/zoneFreeScene/pages/freeShipSea.vue\" target=\"_blank\">gitee源码跳转</a><br>\n    基于编辑器的配置，用于二次编辑使用：<a style=\"color: #5384ff;\" href=\"https://opensource.icegl.cn/plugins/zoneFreeScene/config/freeShipSea.json\" target=\"_blank\">freeShipSea.json</a><br>\n    在线编辑器再次编辑后免费导出源码项目二开：<a style=\"color: #ef4035;\" href=\"https://zone3deditor.icegl.cn/#/plugins/zone3Deditor/index?sceneConfig=freeShipSea\" target=\"_blank\">zone3Deditor页面跳转</a><br>\n     QA问答:<br>\n    1、此插件包依赖免费插件，请前往下载安装： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    ",
       "version": "2.1.0",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
@@ -42,13 +42,13 @@
     "zone3Deditor": {
       "name": "zone3Deditor",
       "title": "区域场景编辑器",
-      "intro": "基于tvt生态的区域编辑器，用于快速落地园区、区域范围类的场景，导出配置或者源码，便于二次开发。<br>\n    免费使用、免费预览、免费导入导出配置，以及按照自己得需求设计，引入自己得模型服务，编辑好后，免费导出插件源码进行二次开发。<br>\n    1、测试用模型服务的管理器源码git库（内附说明）: <a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/tvt-model-manager-serve\" target=\"_blank\">gitee.com/ice-gl/tvt-model-manager-serve</a><br>\n    2、测试用编辑器案例配置(最佳实践) : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/TvTzone3Deditor.json\" target=\"_blank\">TvTzone3Deditor.json</a><br>\n    3、测试用编辑器goview的配置 : <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/plugins/zone3Deditor/GoView.json\" target=\"_blank\">GoView.json</a><br>\n    4、动态组件服务以及文档介绍页面 : <a style=\"color: #5384ff;\" href=\"https://dcser.icegl.cn/\" target=\"_blank\">dcser.icegl.cn</a><br>\n    5、文档教程详见：<a style=\"color: #5384ff;\" href=\"https://docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html\" target=\"_blank\">docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html</a><br>\n    6、插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zone3Deditor\" target=\"_blank\">icegl.cn/tvtstore/zone3Deditor</a><br>\n    7、视频教程详见：<a style=\"color: #5384ff;\" href=\"https://www.bilibili.com/video/BV1USaczSEaS/\" target=\"_blank\">bilibili.com/video/BV1USaczSEaS</a><br>\n    QA问答:<br>\n    1、导出插件包安装后，需要再安装下免费插件依赖： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    此插件会和tvt.js生态持续协同，不断加入组件，用于您项目的快速落地<br>",
-      "version": "2.6.5",
+      "intro": "基于tvt生态的区域编辑器，用于快速落地园区、区域范围类的场景，导出配置或者源码，便于二次开发。<br>\n    免费使用、免费预览、免费导入导出配置，以及按照自己得需求设计，引入自己得模型服务，编辑好后，免费导出插件源码进行二次开发。<br>\n    1、测试用模型服务的管理器源码git库（内附说明）: <a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/tvt-model-manager-serve\" target=\"_blank\">gitee.com/ice-gl/tvt-model-manager-serve</a><br>\n    2、测试用编辑器案例配置(最佳实践) : <a style=\"color: #5384ff;\" href=\"https://zone3deditor.icegl.cn/plugins/zone3Deditor/TvTzone3Deditor.json\" target=\"_blank\">TvTzone3Deditor.json</a><br>\n    3、测试用编辑器goview的配置 : <a style=\"color: #5384ff;\" href=\"https://zone3deditor.icegl.cn/plugins/zone3Deditor/GoView.json\" target=\"_blank\">GoView.json</a><br>\n    4、动态组件服务以及文档介绍页面 : <a style=\"color: #5384ff;\" href=\"https://dcser.icegl.cn/\" target=\"_blank\">dcser.icegl.cn</a><br>\n    5、文档教程详见：<a style=\"color: #5384ff;\" href=\"https://docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html\" target=\"_blank\">docs.icegl.cn/docs/three-vue-tres/zoneeditor/introduction.html</a><br>\n    6、插件下载详见：<a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/zone3Deditor\" target=\"_blank\">icegl.cn/tvtstore/zone3Deditor</a><br>\n    7、视频教程详见：<a style=\"color: #5384ff;\" href=\"https://www.bilibili.com/video/BV1USaczSEaS/\" target=\"_blank\">bilibili.com/video/BV1USaczSEaS</a><br>\n    QA问答:<br>\n    1、导出插件包安装后，需要再安装下免费插件依赖： <a style=\"color: #5384ff;\" href=\"https://www.icegl.cn/tvtstore/useViewportGizmo\" target=\"_blank\">ViewportGizmo插件</a><br>\n    此插件会和tvt.js生态持续协同，不断加入组件，用于您项目的快速落地<br>",
+      "version": "2.7.1",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
       "creatTime": "2025-04-18",
-      "updateTime": "2026-01-20",
+      "updateTime": "2026-03-28",
       "require": [
         "basic",
         "digitalCity",
@@ -66,7 +66,7 @@
           "title": "实例",
           "disableFPSGraph": true,
           "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index"
+          "url": "https://zone3deditor.icegl.cn/#/plugins/zone3Deditor/index"
         },
         {
           "src": "编辑好后的预览页面",
@@ -75,7 +75,7 @@
           "title": "预览页面",
           "disableFPSGraph": false,
           "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/preview"
+          "url": "https://zone3deditor.icegl.cn/#/plugins/zone3Deditor/preview"
         },
         {
           "src": "plugins/zone3Deditor/preview/preview.png",
@@ -84,7 +84,7 @@
           "title": "导出插件案例",
           "disableFPSGraph": true,
           "disableSrcBtn": true,
-          "url": "https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/pluginOne"
+          "url": "https://zone3deditor.icegl.cn/#/plugins/zone3Deditor/pluginOne"
         }
       ]
     },
@@ -1030,7 +1030,7 @@
     "loadDynamicComponent": {
       "name": "loadDynamicComponent",
       "title": "读取动态组件",
-      "intro": "通过此组件可以动态加载并显示其他组件</br>\n    发布服务程序gitee开源地址：\n    <a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/dynamic-component-service\" target=\"_blank\">gitee.com/ice-gl/dynamic-component-service</a></br>\n    1、发布你自己的高级组件，可以通过此组件，在tvt.js灵活调试</br>\n    2、可以导入到在线的 <区域场景编辑器> <a style=\"color: #5384ff;\" href=\"https://oss.icegl.cn/p/zone3Deditor/#/plugins/zone3Deditor/index\" target=\"_blank\">oss.icegl.cn/p/zone3Deditor</a>，进行二次编辑后，再开发。",
+      "intro": "通过此组件可以动态加载并显示其他组件</br>\n    发布服务程序gitee开源地址：\n    <a style=\"color: #5384ff;\" href=\"https://gitee.com/ice-gl/dynamic-component-service\" target=\"_blank\">gitee.com/ice-gl/dynamic-component-service</a></br>\n    1、发布你自己的高级组件，可以通过此组件，在tvt.js灵活调试</br>\n    2、可以导入到在线的 <区域场景编辑器> <a style=\"color: #5384ff;\" href=\"https://zone3deditor.icegl.cn/#/plugins/zone3Deditor/index\" target=\"_blank\">zone3deditor.icegl.cn</a>，进行二次编辑后，再开发。",
       "version": "1.0.0",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
@@ -2486,5 +2486,5 @@
       ]
     }
   },
-  "date": "3/26/2026, 12:00:14 PM"
+  "date": "3/28/2026, 5:34:30 AM"
 }

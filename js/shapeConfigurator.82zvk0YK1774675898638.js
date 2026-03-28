@@ -1,0 +1,1 @@
+import{_sfc_main$12 as t}from"./customShaderMaterial.vue_vue_type_script_setup_true_lang.CRXtjG3B1774675898638.js";import{_export_sfc as e}from"./index.CHB7rWBY1774675898638.js";const _=e(t,[["__scopeId","data-v-abbf0cc1"]]);export{_ as shapeConfigurator};
