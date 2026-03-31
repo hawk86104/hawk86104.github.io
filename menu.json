@@ -2150,6 +2150,16 @@
               "title": "反光漆图层"
             },
             {
+              "src": "plugins/basic/materials/preview/liquidMetal.png",
+              "type": "img",
+              "name": "liquidMetal",
+              "title": "液态金属",
+              "referenceSource": {
+                "title": "Liquid Metal",
+                "url": "https://codepen.io/sabosugi/pen/yyabKEP"
+              }
+            },
+            {
               "src": "plugins/basic/materials/preview/instancedMeshCustomShaderMaterial.png",
               "type": "img",
               "name": "instancedMeshCustomShaderMaterial",
@@ -2486,5 +2496,5 @@
       ]
     }
   },
-  "date": "3/28/2026, 5:34:30 AM"
+  "date": "3/31/2026, 7:09:28 AM"
 }
