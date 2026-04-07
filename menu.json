@@ -973,12 +973,22 @@
       "name": "medical",
       "title": "医疗行业",
       "intro": "医疗行业数字化例子",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
       "require": [],
       "preview": [
+        {
+          "src": "plugins/medical/preview/brainStorm.png",
+          "type": "img",
+          "name": "brainStorm",
+          "title": "头脑风暴",
+          "referenceSource": {
+            "title": "SahilK-Brain",
+            "url": "https://github.com/SahilK-027/Digital-Brain"
+          }
+        },
         {
           "src": "plugins/medical/preview/digitalBrain.png",
           "type": "img",
@@ -2531,5 +2541,5 @@
       ]
     }
   },
-  "date": "4/7/2026, 3:56:33 AM"
+  "date": "4/7/2026, 9:46:06 AM"
 }
