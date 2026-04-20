@@ -1507,6 +1507,30 @@
           "title": "通用格式的高斯",
           "disableFPSGraph": false,
           "disableSrcBtn": false
+        },
+        {
+          "src": "plugins/gaussianSplatting/preview/hy2plyPage.png",
+          "type": "img",
+          "name": "hy2plyPage",
+          "title": "混元2ply",
+          "disableFPSGraph": false,
+          "disableSrcBtn": false,
+          "referenceSource": {
+            "title": "hunyuan3D",
+            "url": "https://3d.hunyuan.tencent.com/sceneTo3D"
+          }
+        },
+        {
+          "src": "plugins/gaussianSplatting/preview/hunyuanSpzPage.png",
+          "type": "img",
+          "name": "hunyuanSpzPage",
+          "title": "混元SPZ",
+          "disableFPSGraph": false,
+          "disableSrcBtn": false,
+          "referenceSource": {
+            "title": "HY-World-2.0",
+            "url": "https://github.com/Tencent-Hunyuan/HY-World-2.0"
+          }
         }
       ]
     },
@@ -2559,5 +2583,5 @@
       ]
     }
   },
-  "date": "4/20/2026, 1:41:12 AM"
+  "date": "4/20/2026, 10:16:12 AM"
 }

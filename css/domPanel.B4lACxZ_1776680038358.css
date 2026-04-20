@@ -1,0 +1,14 @@
+.tvtDomPanelClass > div:first-of-type {
+  position: relative !important;
+}
+.tvtDomPanelClass {
+  -webkit-user-select: none;
+          user-select: none;
+  pointer-events: none !important;
+}
+.tvtDomPanelClass #inner,
+.tvtDomPanelClass .childWrapper {
+  -webkit-user-select: none;
+          user-select: none;
+  pointer-events: none !important;
+}
