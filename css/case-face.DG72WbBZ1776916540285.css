@@ -1,0 +1,13 @@
+
+/* 基础样式 */
+button[data-v-3154780e]:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+button[data-v-3154780e]:active {
+    opacity: 0.6;
+    transform: translateY(0);
+}
+button[data-v-3154780e] {
+    transition: all 0.2s ease;
+}
