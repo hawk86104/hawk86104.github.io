@@ -1237,6 +1237,16 @@
           "type": "img",
           "name": "pointsEarth",
           "title": "粒子球"
+        },
+        {
+          "src": "plugins/heroSection/preview/particleEarth.png",
+          "type": "img",
+          "name": "particleEarth",
+          "title": "粒子地球",
+          "referenceSource": {
+            "title": "tsl-scifi-earth",
+            "url": "https://github.com/hexianWeb/tsl-scifi-earth"
+          }
         }
       ]
     },
@@ -2591,5 +2601,5 @@
       ]
     }
   },
-  "date": "5/6/2026, 7:20:51 AM"
+  "date": "5/12/2026, 8:33:04 AM"
 }
