@@ -2266,6 +2266,12 @@
               }
             },
             {
+              "src": "plugins/basic/materials/preview/jumpingBlockMaterial.svg",
+              "type": "img",
+              "name": "jumpingBlockMaterial",
+              "title": "跳动块动画材质"
+            },
+            {
               "src": "plugins/basic/materials/preview/instancedMeshCustomShaderMaterial.png",
               "type": "img",
               "name": "instancedMeshCustomShaderMaterial",
@@ -2602,5 +2608,5 @@
       ]
     }
   },
-  "date": "5/15/2026, 10:39:24 AM"
+  "date": "5/22/2026, 3:36:09 AM"
 }
