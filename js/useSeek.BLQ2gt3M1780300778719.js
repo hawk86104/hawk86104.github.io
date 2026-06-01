@@ -1,1 +1,0 @@
-function l(){function s(e,n,t){let r=null;return e.traverse(u=>{u[n]===t&&(r=u)}),r}function f(e,n,t){const r=[];return e.traverse(u=>{u[n].includes(t)&&r.push(u)}),r}function o(e,n){return s(e,"name",n)}function i(e,n){return f(e,"name",n)}return{seek:s,seekByName:o,seekAll:f,seekAllByName:i}}export{l as useSeek};
