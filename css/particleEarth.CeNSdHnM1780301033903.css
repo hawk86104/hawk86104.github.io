@@ -1,9 +1,0 @@
-
-.particle-earth-page[data-v-05245eac] {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background:
-        radial-gradient(circle at 50% 48%, rgba(48, 128, 210, 0.22), rgba(1, 5, 14, 0.45) 34%, #000 72%),
-        url('../plugins/heroSection/particleEarth/hdr/2k_stars_milky_way.jpg') center / cover no-repeat;
-}
