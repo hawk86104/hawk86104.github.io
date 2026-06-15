@@ -1188,6 +1188,16 @@
             "title": "react-three/fiber",
             "url": "https://codesandbox.io/p/sandbox/webgpu-tsl-gears-forked-v3d959"
           }
+        },
+        {
+          "src": "plugins/industry4/bikeConfigurator/bike-poster.jpg",
+          "type": "img",
+          "name": "bikeConfigurator",
+          "title": "Bike Configurator",
+          "referenceSource": {
+            "title": "Needle Engine",
+            "url": "https://engine.needle.tools/projects/bike/"
+          }
         }
       ]
     },
@@ -1874,6 +1884,12 @@
           "type": "img",
           "name": "simplePark",
           "title": "简单园区"
+        },
+        {
+          "src": "plugins/digitalPark/innovationHubAr/images/poster.webp",
+          "type": "img",
+          "name": "innovationHubAr",
+          "title": "Innovation Hub AR"
         }
       ]
     },
@@ -2632,5 +2648,5 @@
       ]
     }
   },
-  "date": "6/11/2026, 8:09:39 AM"
+  "date": "6/15/2026, 2:09:07 AM"
 }
