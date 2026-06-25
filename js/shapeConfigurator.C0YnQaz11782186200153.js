@@ -1,1 +1,0 @@
-import{_sfc_main$14 as o}from"./index.vue_vue_type_script_setup_true_lang.BZ4TpE5Q1782186200153.js";import{_export_sfc as a}from"./index.BzWE9vvh1782186200153.js";const c=a(o,[["__scopeId","data-v-abbf0cc1"]]);export{c as shapeConfigurator};
