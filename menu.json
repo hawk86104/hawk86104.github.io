@@ -241,6 +241,16 @@
       "require": [],
       "preview": [
         {
+          "src": "plugins/visualArts/preview/biineBee.png",
+          "type": "img",
+          "name": "biineBee",
+          "title": "Biine Bee",
+          "referenceSource": {
+            "title": "Patrick Heintzmann Lab",
+            "url": "https://lab.patrickheintzmann.com/demo/demoBee"
+          }
+        },
+        {
           "src": "plugins/visualArts/preview/volumetricLightGodray.png",
           "type": "img",
           "name": "volumetricLightGodray",
@@ -2638,5 +2648,5 @@
       ]
     }
   },
-  "date": "6/25/2026, 1:20:45 AM"
+  "date": "7/2/2026, 7:31:14 AM"
 }
