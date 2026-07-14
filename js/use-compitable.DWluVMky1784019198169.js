@@ -1,1 +1,0 @@
-import{importShared as r}from"./3d-tiles-renderer.BLqHS9Z21784019198169.js";const{computed:u}=await r("vue");function f(o,t){return u(()=>{for(const n of t)if(o[n]!==void 0)return o[n];return o[t[t.length-1]]})}export{f as useCompitable};
