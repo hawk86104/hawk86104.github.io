@@ -1,0 +1,8 @@
+
+/* 基础样式 */
+button[data-v-328ccdf3]:hover {
+    opacity: 0.8;
+}
+button[data-v-328ccdf3]:active {
+    opacity: 0.6;
+}
