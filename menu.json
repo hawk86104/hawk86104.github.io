@@ -140,8 +140,41 @@
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
-      "require": [],
+      "require": [
+        "UIdemo",
+        "resourceManager"
+      ],
       "preview": [
+        {
+          "src": "plugins/water/preview/spectralCascadeOcean.png",
+          "type": "img",
+          "name": "spectralCascadeOcean",
+          "title": "频谱级联海洋",
+          "referenceSource": {
+            "title": "Three.js Awesome Graphics Agent Skills",
+            "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+          }
+        },
+        {
+          "src": "plugins/water/preview/stylizedAboveBelowOcean.png",
+          "type": "img",
+          "name": "stylizedAboveBelowOcean",
+          "title": "风格化水上/水下海洋",
+          "referenceSource": {
+            "title": "Three.js Awesome Graphics Agent Skills",
+            "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+          }
+        },
+        {
+          "src": "plugins/water/preview/submergedSnellOcean.png",
+          "type": "img",
+          "name": "submergedSnellOcean",
+          "title": "水下斯涅尔海洋",
+          "referenceSource": {
+            "title": "Three.js Awesome Graphics Agent Skills",
+            "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+          }
+        },
         {
           "src": "plugins/water/preview/staticWaterPage.png",
           "type": "img",
@@ -238,8 +271,21 @@
       "state": "active",
       "creatTime": "2024-04-30",
       "updateTime": "2024-04-30",
-      "require": [],
+      "require": [
+        "UIdemo",
+        "resourceManager"
+      ],
       "preview": [
+        {
+          "src": "plugins/visualArts/preview/porcelainBrassSubmarine.png",
+          "type": "img",
+          "name": "porcelainBrassSubmarine",
+          "title": "瓷器黄铜潜艇",
+          "referenceSource": {
+            "title": "Three.js Awesome Graphics Agent Skills",
+            "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+          }
+        },
         {
           "src": "plugins/visualArts/preview/biineBee.png",
           "type": "img",
@@ -1912,7 +1958,8 @@
       "website": "https://gitee.com/hawk86104",
       "state": "active",
       "require": [
-        "resourceManager"
+        "resourceManager",
+        "UIdemo"
       ],
       "preview": [
         {
@@ -1944,6 +1991,16 @@
           "type": "img",
           "name": "weather",
           "title": "天气"
+        },
+        {
+          "src": "plugins/digitalCity/preview/wetPuddleRain.png",
+          "type": "img",
+          "name": "wetPuddleRain",
+          "title": "雨天地面积水",
+          "referenceSource": {
+            "title": "Three.js Awesome Graphics Agent Skills",
+            "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+          }
         },
         {
           "src": "plugins/digitalCity/preview/lightningStorm.png",
@@ -2020,6 +2077,16 @@
           "type": "img",
           "name": "fireF",
           "title": "火F🔥效果"
+        },
+        {
+          "src": "plugins/digitalCity/preview/volumetricFluidFire.png",
+          "type": "img",
+          "name": "volumetricFluidFire",
+          "title": "WebGPU体积流体火焰",
+          "referenceSource": {
+            "title": "Three.js Awesome Graphics Agent Skills",
+            "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+          }
         },
         {
           "src": "plugins/digitalCity/preview/fireBall.png",
@@ -2169,7 +2236,10 @@
       "author": "地虎降天龙",
       "website": "www.icegl.cn",
       "state": "active",
-      "require": [],
+      "require": [
+        "UIdemo",
+        "resourceManager"
+      ],
       "child": [
         {
           "name": "base",
@@ -2233,6 +2303,26 @@
           "intro": "各种衍生材质展示",
           "pNode": "basic",
           "preview": [
+            {
+              "src": "plugins/basic/materials/preview/physicalDiffractionGrating.png",
+              "type": "img",
+              "name": "physicalDiffractionGrating",
+              "title": "物理衍射光栅",
+              "referenceSource": {
+                "title": "Three.js Awesome Graphics Agent Skills",
+                "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+              }
+            },
+            {
+              "src": "plugins/basic/materials/preview/raytracedDiamond.png",
+              "type": "img",
+              "name": "raytracedDiamond",
+              "title": "BVH光追钻石",
+              "referenceSource": {
+                "title": "Three.js Awesome Graphics Agent Skills",
+                "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills"
+              }
+            },
             {
               "src": "plugins/basic/materials/preview/glassMaterial.png",
               "type": "img",
@@ -2658,5 +2748,5 @@
       ]
     }
   },
-  "date": "8/4/2026, 8:51:46 AM"
+  "date": "8/19/2026, 4:12:55 AM"
 }
