@@ -1525,7 +1525,9 @@
       "author": "地虎降天龙",
       "website": "https://gitee.com/hawk86104",
       "state": "active",
-      "require": [],
+      "require": [
+        "basic"
+      ],
       "preview": [
         {
           "src": "plugins/floor/preview/ripperfloor.png",
@@ -1556,6 +1558,12 @@
           "type": "img",
           "name": "simpleReflector",
           "title": "简单镜面"
+        },
+        {
+          "src": "plugins/floor/preview/meshReflectionFloor.png",
+          "type": "img",
+          "name": "meshReflectionFloor",
+          "title": "通用镜面地板"
         },
         {
           "src": "plugins/floor/preview/reflectorShader.png",
@@ -2622,5 +2630,5 @@
       ]
     }
   },
-  "date": "8/25/2026, 9:13:43 AM"
+  "date": "8/28/2026, 4:40:11 AM"
 }
