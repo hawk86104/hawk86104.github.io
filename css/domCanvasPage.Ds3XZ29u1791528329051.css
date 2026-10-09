@@ -1,0 +1,20 @@
+
+.dom-canvas-guide[data-v-42e2ed4f] {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    max-width: min(360px, calc(100vw - 40px));
+    padding: 16px 20px;
+    border: 1px solid #5c9cd555;
+    border-radius: 12px;
+    background: #12263be6;
+    color: #d9ecff;
+    pointer-events: none;
+    font-size: 13px;
+}
+.dom-canvas-guide strong[data-v-42e2ed4f] { font-size: 17px;
+}
+.dom-canvas-guide p[data-v-42e2ed4f] { margin: 8px 0 0; line-height: 1.6;
+}
+.dom-canvas-guide .error[data-v-42e2ed4f] { color: #ffd83d;
+}

@@ -2602,6 +2602,12 @@
           "type": "img",
           "name": "generalFontPage",
           "title": "标准三维字体组件"
+        },
+        {
+          "src": "plugins/UIdemo/preview/domCanvas.svg",
+          "type": "img",
+          "name": "domCanvasPage",
+          "title": "HTML三维纹理面板"
         }
       ]
     },
@@ -2630,5 +2636,5 @@
       ]
     }
   },
-  "date": "9/10/2026, 6:53:33 AM"
+  "date": "10/9/2026, 6:47:39 AM"
 }
