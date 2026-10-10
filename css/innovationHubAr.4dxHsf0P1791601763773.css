@@ -1,0 +1,19 @@
+
+.innovation-hub-ar[data-v-04f8b058] {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    background: #d6e8f7;
+}
+.loading-overlay[data-v-04f8b058] {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    background: #d6e8f7;
+    color: #234;
+}
