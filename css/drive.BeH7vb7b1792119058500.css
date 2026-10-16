@@ -1,0 +1,45 @@
+
+.tesla-drive[data-v-b7e6be3f] { position: relative; width: 100%; height: 100%; min-height: 360px; overflow: hidden; isolation: isolate; background: #14030b; color: #ffe6ed; font-family: TeslaDriveRoboto, Arial, sans-serif; font-weight: 300; touch-action: none; outline: none;
+}
+.tesla-drive[data-v-b7e6be3f]:focus-visible { outline: 1px solid #ff5278; outline-offset: -1px;
+}
+.drive-title[data-v-b7e6be3f] { position: absolute; z-index: 1; top: 28px; left: 32px; pointer-events: none;
+}
+.drive-title > span[data-v-b7e6be3f] { color: #ff5278; font-size: 11px; letter-spacing: 5px;
+}
+.drive-title h1[data-v-b7e6be3f] { margin: 8px 0 0; color: inherit; font-size: 30px; font-weight: 300;
+}
+.drive-title small[data-v-b7e6be3f] { display: block; margin-top: 4px; font-size: 12px; letter-spacing: 3px; text-transform: uppercase;
+}
+.drive-loader[data-v-b7e6be3f] { position: absolute; z-index: 2; left: 50%; bottom: 12%; width: min(320px, 80%); transform: translateX(-50%); text-align: center;
+}
+.drive-loader p[data-v-b7e6be3f] { margin: 0 0 12px; font-size: 14px;
+}
+.drive-loader progress[data-v-b7e6be3f] { width: 160px; height: 4px; accent-color: #ff2455;
+}
+.tesla-drive button[data-v-b7e6be3f] { padding: 11px 24px; border: 1px solid #a52e4b; border-radius: 3px; background: #260510db; color: inherit; font: inherit; font-size: 13px; cursor: pointer;
+}
+.tesla-drive button[data-v-b7e6be3f]:focus-visible { outline: 2px solid #fff; outline-offset: 3px;
+}
+.drive-hints[data-v-b7e6be3f] { position: absolute; z-index: 1; left: 20px; bottom: 18px; display: flex; gap: 20px; pointer-events: none;
+}
+.drive-hints > div[data-v-b7e6be3f] { display: grid; justify-items: center; gap: 4px; color: #df9eaf; font-size: 10px;
+}
+.drive-hints i[data-v-b7e6be3f] { display: block; width: 35px; height: 35px; background-size: 300% 100%;
+}
+.drive-reset[data-v-b7e6be3f] { position: absolute; z-index: 2; right: 20px; bottom: 20px;
+}
+.drive-joystick[data-v-b7e6be3f] { position: absolute; z-index: 2; transform: translate(-60px, -60px); pointer-events: none; fill: none; stroke: #ff809d; stroke-width: 2;
+}
+.drive-joystick circle + circle[data-v-b7e6be3f] { stroke-width: 5;
+}
+@media (pointer: coarse) {
+.drive-hints[data-v-b7e6be3f] { display: none;
+}
+}
+@media (max-width: 600px) {
+.drive-title[data-v-b7e6be3f] { top: 20px; left: 20px;
+}
+.drive-title h1[data-v-b7e6be3f] { font-size: 24px;
+}
+}
