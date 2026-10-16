@@ -1,0 +1,25 @@
+
+.tesla-live-drive[data-v-8e40e838] { position: relative; width: 100%; height: 100%; min-height: 0; overflow: hidden; isolation: isolate; background: #14030b; touch-action: none; outline: none;
+}
+.tesla-live-drive[data-v-8e40e838]:focus-visible { outline: 1px solid #ff5278; outline-offset: -1px;
+}
+.tesla-live-toolbar[data-v-8e40e838] { position: absolute; z-index: 2; top: 16px; right: 16px; display: flex; gap: 8px;
+}
+.tesla-live-toolbar button[data-v-8e40e838] { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 38px; padding: 0 12px; border: 1px solid #a52e4b; border-radius: 5px; background: #260510e6; color: #ffe6ed; font: inherit; font-size: 12px; cursor: pointer;
+}
+.tesla-live-toolbar button.active[data-v-8e40e838] { border-color: #ff809d; background: #541027e6;
+}
+.tesla-live-toolbar button[data-v-8e40e838]:focus-visible { outline: 2px solid #ff809d; outline-offset: 2px;
+}
+.tesla-live-toolbar button[data-v-8e40e838]:disabled { opacity: .6; cursor: wait;
+}
+.tesla-live-keyboard-help[data-v-8e40e838] { position: absolute; z-index: 1; left: 16px; bottom: 12px; max-width: calc(100% - 32px); margin: 0; padding: 7px 10px; border-radius: 4px; background: #260510d9; color: #ffe6ed; font-size: 12px; line-height: 1.7; pointer-events: none;
+}
+.tesla-live-loading[data-v-8e40e838] { position: absolute; z-index: 1; left: 50%; bottom: 12%; width: min(420px, 85%); transform: translateX(-50%); color: #ffe6ed; text-align: center;
+}
+.tesla-live-loading p[data-v-8e40e838] { margin-bottom: 14px;
+}
+.tesla-live-loading progress[data-v-8e40e838] { width: 180px; height: 4px; accent-color: #ff5278;
+}
+.tesla-live-loading button[data-v-8e40e838] { padding: 10px 24px; border: 1px solid #ff5278; border-radius: 4px; background: #260510; color: inherit; cursor: pointer;
+}

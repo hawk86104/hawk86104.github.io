@@ -1,1 +1,0 @@
-import{importShared as o}from"./3d-tiles-renderer.BeOTIyJB1792119058500.js";import{FloorplanStudio as e}from"./FloorplanStudio.CviZ05eN1792119058500.js";const{openBlock:r,createBlock:t}=await o("vue"),i={__name:"index",setup(c){return(a,n)=>(r(),t(e))}};export{i as default};
